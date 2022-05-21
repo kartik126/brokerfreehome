@@ -80,7 +80,7 @@ function Footer() {
                     <ul className="footer-contacts fl-wrap">
                       <li>
                         <span>
-                          <i className="fal fa-envelope"></i> Mail :
+                          <i className="fa fa-envelope"></i> Mail :
                         </span>
                         <a href="#" target="_blank">
                           yourmail@domain.com
@@ -89,7 +89,7 @@ function Footer() {
                       <li>
                         {" "}
                         <span>
-                          <i className="fal fa-map-marker"></i> Adress :
+                          <i className="fa fa-map-marker"></i> Adress :
                         </span>
                         <a href="#" target="_blank">
                           USA 27TH Brooklyn NY
@@ -97,7 +97,7 @@ function Footer() {
                       </li>
                       <li>
                         <span>
-                          <i className="fal fa-phone"></i> Phone :
+                          <i className="fa fa-phone"></i> Phone :
                         </span>
                         <a href="#">+7(111)123456789</a>
                       </li>

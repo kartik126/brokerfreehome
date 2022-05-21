@@ -250,7 +250,7 @@ blockquote p {
 
 .tab-content {
 	width: 100%;
-	display: none;
+	/* display: none; */
 	float: left;
 }
 
@@ -514,7 +514,7 @@ blockquote p {
 }
 
 .header-opt_btn span:after {
-	font-family: Font Awesome\ 5 Pro;
+	font-family: Font Awesome 6;
 	content: "\f0d7";
 	position: absolute;
 	right: 12px;
@@ -2078,7 +2078,7 @@ nav li ul a:after {
 	height: 100%;
 	z-index: 1000;
 	overflow: auto;
-	display: none;
+	/* display: none; */
 	-webkit-transform: translate3d(0, 0, 0);
 	background: rgba(37, 44, 65, .7);
 }
@@ -2160,7 +2160,7 @@ nav li ul a:after {
 .modal_main {
 	transition: all .4s ease-in-out;
 	margin-top: 50px;
-	opacity: 0;
+	opacity: 1;
 }
 
 .modal_main.vis_mr {

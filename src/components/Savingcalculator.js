@@ -30,7 +30,7 @@ function Savingcalculator() {
                           </select>
                         </div>
                         <div className="col-sm-4">
-                          <label>Property Value/Rental Value (AED)<span className="dec-icon"><i className="far fa-money-bill" /></span></label>
+                          <label>Property Value/Rental Value (AED)<span className="dec-icon"><i className="fa fa-money-bill" /></span></label>
                           <input type="text" placeholder="Property Value / Rental Value" defaultValue />
                         </div>
                         <div className="col-sm-4">

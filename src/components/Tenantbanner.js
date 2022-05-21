@@ -86,7 +86,7 @@ function Tenantbanner() {
                   <input type="text" className="price-range" data-min={100} data-max={100000} name="price-range1" data-step={1} defaultValue={1} data-prefix="A.E.D." />
                 </div>
               </div>
-              <button className="main-search-button color-bg" onclick="window.location.href='listing.html'"> Search <i className="far fa-search" />
+              <button className="main-search-button color-bg" onclick="window.location.href='listing.html'"> Search <i className="fa fa-search" />
               </button>
             </div>
           </div>

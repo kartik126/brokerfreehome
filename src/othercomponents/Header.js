@@ -1,5 +1,20 @@
 import { Link } from "react-router-dom";
-function Header() {
+import Registrationform from "../components/Registrationform";
+import { useState } from "react";
+function Header(props) {
+  const [regForm, setregForm] = useState(false);
+  const openNav = () => {
+    document.getElementById("mySidenav").style.width = "350px";
+  };
+
+  const closeNav = () => {
+    document.getElementById("mySidenav").style.width = "0";
+  };
+ const set=()=>{
+  setregForm(false)
+}
+
+
   return (
     <header className="main-header">
       {/* <!--  logo  --> */}
@@ -28,7 +43,7 @@ function Header() {
         <a
           href="javascript:void(0)"
           className="add-list hamburger_header color-bg"
-          onClick="openNav()"
+          onClick={() => openNav()}
           style={{
             width: "40px",
             display: "flex",
@@ -37,11 +52,16 @@ function Header() {
             float: "right",
           }}
         >
-          <i className="fal fa-bars" style={{ display: "block !important" }} />
+         
+          <i className="fa-solid fa-bars" style={{ display: "block !important" }} />
         </a>
       </div>
       <div id="mySidenav" className="sidenav">
-        <a href="javascript:void(0)" className="closebtn" onClick="closeNav()">
+        <a
+          href="javascript:void(0)"
+          className="closebtn"
+          onClick={() => closeNav()}
+        >
           &times;
         </a>
         <a href="#">Mortgage Assist</a>
@@ -72,7 +92,7 @@ function Header() {
             </li>
             <li>
               <a href="#" target="_blank">
-                <i className="fab fa-vk"></i>
+                <i class="fab fa-vk"></i>
               </a>
             </li>
           </ul>
@@ -80,11 +100,12 @@ function Header() {
       </div>
       {/* <!--  add new  btn end -->
 			<!--  login btn --> */}
-      <div className="show-reg-form modal-open">
-       
-          <i className="fas fa-user"></i>
-          <span>Log In</span>
-        
+      <div
+        className="show-reg-form "
+        onClick={() => setregForm(true)}  
+      >
+        <i class="fas fa-user"></i>
+        <span>Log In</span>
       </div>
       {/* <!--  login btn  end -->
 			<!--  header-opt_btn --> */}
@@ -94,7 +115,7 @@ function Header() {
         data-tooltip="Language"
       >
         <span>
-          <i className="fal fa-globe"></i>
+          <i class="fa fa-globe "></i>
         </span>
       </div>
       {/* <!--  header-opt_btn end -->
@@ -472,6 +493,7 @@ function Header() {
         </div>
       </div>
       {/* <!--header-opt-modal end --> */}
+      {regForm ? <Registrationform regForm={regForm} set={set} /> : <></>}
     </header>
   );
 }

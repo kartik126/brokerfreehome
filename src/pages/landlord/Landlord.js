@@ -3,6 +3,7 @@ import Bfhworks from "../../components/Bfhworks";
 import Blogs from "../../components/Blogs";
 import Helpdesk from "../../components/Helpdesk";
 import Mainbanner from "../../components/Mainbanner";
+import Registrationform from '../../components/Registrationform';
 import Savingcalculator from "../../components/Savingcalculator";
 import Topdetails from "../../components/Topdetails";
 import Footer from "../../othercomponents/Footer";
@@ -19,6 +20,7 @@ function Landlord() {
       <Helpdesk />
       <Blogs />
       <Footer />
+      
     </>
   )
 }

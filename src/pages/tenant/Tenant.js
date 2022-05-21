@@ -2,6 +2,7 @@ import React from "react";
 import Bfhworks from "../../components/Bfhworks";
 import Blogs from "../../components/Blogs";
 import BrowseProperty from "../../components/BrowseProperty";
+import Getcontacted from "../../components/Getcontacted";
 import Helpdesk from "../../components/Helpdesk";
 import Savingcalculator from "../../components/Savingcalculator";
 import Tenantbanner from "../../components/Tenantbanner";
@@ -19,8 +20,10 @@ function Tenant() {
       <Savingcalculator />
       <BrowseProperty />
       <Helpdesk />
+      <Getcontacted/>
       <Blogs />
       <Footer />
+     
     </>
   );
 }

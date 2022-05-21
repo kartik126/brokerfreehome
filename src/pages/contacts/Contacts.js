@@ -48,7 +48,7 @@ function Contacts() {
                   {/* services-item */}
                   <div className="col-md-4">
                     <div className="services-item fl-wrap">
-                      <i className="fal fa-envelope" />
+                      <i className="fa fa-envelope" />
                       <h4>Our Mails <span>01</span></h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                       <a href="#" className="serv-link sl-b">yourmail@domain.com</a>
@@ -58,7 +58,7 @@ function Contacts() {
                   {/* services-item */}
                   <div className="col-md-4">
                     <div className="services-item fl-wrap">
-                      <i className="fal fa-phone-rotary" />
+                      <i className="fa fa-phone" />
                       <h4>Our Phones<span>02</span></h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                       <a href="#" className="serv-link sl-b">+7(111)123456789</a>
@@ -68,7 +68,7 @@ function Contacts() {
                   {/* services-item */}
                   <div className="col-md-4">
                     <div className="services-item fl-wrap">
-                      <i className="fal fa-map-marked" />
+                      <i className="fa fa-map-marked" />
                       <h4>Our Adress <span>03</span></h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                       <a href="#" className="serv-link sl-b">USA 27TH Brooklyn NY</a>
@@ -149,91 +149,7 @@ function Contacts() {
         </div>
         {/* wrapper end */}
         {/*register form */}
-        <div className="main-register-wrap modal">
-          <div className="reg-overlay" />
-          <div className="main-register-holder tabs-act">
-            <div className="main-register-wrapper modal_main fl-wrap">
-              <div className="main-register-header color-bg">
-                <div className="main-register-logo fl-wrap">
-                  <img src="images/white-logo.png" alt="" />
-                </div>
-                <div className="main-register-bg">
-                  <div className="mrb_pin" />
-                  <div className="mrb_pin mrb_pin2" />
-                </div>
-                <div className="mrb_dec" />
-                <div className="mrb_dec mrb_dec2" />
-              </div>
-              <div className="main-register">
-                <div className="close-reg"><i className="fal fa-times" /></div>
-                <ul className="tabs-menu fl-wrap no-list-style">
-                  <li className="current"><a href="#tab-1"><i className="fal fa-sign-in-alt" /> Login</a></li>
-                  <li><a href="#tab-2"><i className="fal fa-user-plus" /> Register</a></li>
-                </ul>
-                {/*tabs */}                       
-                <div className="tabs-container">
-                  <div className="tab">
-                    {/*tab */}
-                    <div id="tab-1" className="tab-content first-tab">
-                      <div className="custom-form">
-                        <form method="post" name="registerform">
-                          <label>Username or Email Address  * <span className="dec-icon"><i className="fal fa-user" /></span></label>
-                          <input name="email" type="text" onclick="this.select()" defaultValue />
-                          <div className="pass-input-wrap fl-wrap">
-                            <label>Password  * <span className="dec-icon"><i className="fal fa-key" /></span></label>
-                            <input name="password" type="password" autoComplete="off" onclick="this.select()" defaultValue />
-                            <span className="eye"><i className="fal fa-eye" /> </span>
-                          </div>
-                          <div className="lost_password">
-                            <a href="#">Lost Your Password?</a>
-                          </div>
-                          <div className="filter-tags">
-                            <input id="check-a3" type="checkbox" name="check" />
-                            <label htmlFor="check-a3">Remember me</label>
-                          </div>
-                          <div className="clearfix" />
-                          <button type="submit" className="log_btn color-bg"> LogIn </button>
-                        </form>
-                      </div>
-                    </div>
-                    {/*tab end */}
-                    {/*tab */}
-                    <div className="tab">
-                      <div id="tab-2" className="tab-content">
-                        <div className="custom-form">
-                          <form method="post" name="registerform" className="main-register-form" id="main-register-form2">
-                            <label>Full Name  * <span className="dec-icon"><i className="fal fa-user" /></span></label>
-                            <input name="name" type="text" onclick="this.select()" defaultValue />
-                            <label>Email Address  * <span className="dec-icon"><i className="fal fa-envelope" /></span></label>
-                            <input name="email" type="text" onclick="this.select()" defaultValue />
-                            <div className="pass-input-wrap fl-wrap">
-                              <label>Password  * <span className="dec-icon"><i className="fal fa-key" /></span></label>
-                              <input name="password" type="password" autoComplete="off" onclick="this.select()" defaultValue />
-                              <span className="eye"><i className="fal fa-eye" /> </span>
-                            </div>
-                            <div className="filter-tags ft-list">
-                              <input id="check-a2" type="checkbox" name="check" />
-                              <label htmlFor="check-a2">I agree to the <a href="#">Privacy Policy</a> and <a href="#">Terms and Conditions</a></label>
-                            </div>
-                            <div className="clearfix" />
-                            <button type="submit" className="log_btn color-bg"> Register </button>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                    {/*tab end */}
-                  </div>
-                  {/*tabs end */}
-                  <div className="log-separator fl-wrap"><span>or</span></div>
-                  <div className="soc-log fl-wrap">
-                    <p>For faster login or register use your social account.</p>
-                    <a href="#" className="facebook-log"> Facebook</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+     
         {/*register form end */}
         {/*secondary-nav */}
         <div className="secondary-nav">

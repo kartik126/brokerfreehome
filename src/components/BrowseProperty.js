@@ -3,7 +3,7 @@ import React from "react";
 function BrowseProperty() {
   return (
     <>
-      <section className="gray-bg small-padding">
+      <section className="gray-bg small-padding" >
         <div className="container">
           <div className="row">
             <div className="col-md-4">
@@ -37,7 +37,7 @@ function BrowseProperty() {
                         href="listing-single3.html"
                         className="geodir-category-img_item"
                       >
-                        <img src="images/all/3.jpg" alt="" />
+                        <img src="./assets/images/all/3.jpg" alt="" />
                         <div className="overlay" />
                       </a>
                       <div className="geodir-category-location">
@@ -127,7 +127,7 @@ function BrowseProperty() {
                         href="listing-single3.html"
                         className="geodir-category-img_item"
                       >
-                        <img src="images/all/5.jpg" alt="" />
+                        <img src="./assets/images/all/5.jpg" alt="" />
                         <div className="overlay" />
                       </a>
                       <div className="geodir-category-location">
@@ -215,7 +215,7 @@ function BrowseProperty() {
                         href="listing-single3.html"
                         className="geodir-category-img_item"
                       >
-                        <img src="images/all/8.jpg" alt="" />
+                        <img src="./assets/images/all/8.jpg" alt="" />
                         <div className="overlay" />
                       </a>
                       <div className="geodir-category-location">
@@ -303,7 +303,7 @@ function BrowseProperty() {
                         href="listing-single3.html"
                         className="geodir-category-img_item"
                       >
-                        <img src="images/all/3.jpg" alt="" />
+                        <img src="./assets/images/all/3.jpg" alt="" />
                         <div className="overlay" />
                       </a>
                       <div className="geodir-category-location">
@@ -393,7 +393,7 @@ function BrowseProperty() {
                         href="listing-single3.html"
                         className="geodir-category-img_item"
                       >
-                        <img src="images/all/5.jpg" alt="" />
+                        <img src="./assets/images/all/5.jpg" alt="" />
                         <div className="overlay" />
                       </a>
                       <div className="geodir-category-location">
@@ -481,7 +481,7 @@ function BrowseProperty() {
                         href="listing-single3.html"
                         className="geodir-category-img_item"
                       >
-                        <img src="images/all/8.jpg" alt="" />
+                        <img src="./assets/images/all/8.jpg" alt="" />
                         <div className="overlay" />
                       </a>
                       <div className="geodir-category-location">

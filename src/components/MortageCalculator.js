@@ -64,7 +64,7 @@ function MortageCalculator() {
                       <div className="half-carousel-item-new fl-wrap" style={{borderRadius: 0, borderRight: 'none', height: '320px'}}>
                         <div className="half-carousel-content">
                           <div className="services-item-new fl-wrap">
-                            <i className="fal fa-repeat" />
+                            <i className="fa fa-repeat" />
                           </div>
                           <h3>Mortgage Compare</h3>
                           <p>Constant care and attention to the patients makes good record</p>
@@ -79,7 +79,8 @@ function MortageCalculator() {
                       <div className="half-carousel-item-new fl-wrap" style={{borderRadius: 0, height: '320px'}}>
                         <div className="half-carousel-content">
                           <div className="services-item-new fl-wrap">
-                            <i className="fal fa-file-chart-line" />
+                          <i class="fa fa-file"></i>
+                            {/* <i className="fa fa-file" /> */}
                           </div>
                           <h3>Apply for Mortgage</h3>
                           <p>Constant care and attention to the patients makes good record</p>

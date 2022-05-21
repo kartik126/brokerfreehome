@@ -4,7 +4,7 @@ import Header from './Header'
 function Footer2() {
   return (
     <>
-    <Header/>
+ 
        <footer className="main-footer fl-wrap">
             <div className="footer-inner fl-wrap">
               <div className="container">
@@ -48,10 +48,10 @@ function Footer2() {
                         <h4>Contacts Info</h4>
                       </div>
                       <ul className="footer-contacts fl-wrap">
-                        <li><span><i className="fal fa-envelope" /> Mail :</span><a href="#" target="_blank">yourmail@domain.com</a></li>
-                        <li> <span><i className="fal fa-map-marker" /> Adress :</span><a href="#" target="_blank">USA 27TH
+                        <li><span><i className="fa fa-envelope" /> Mail :</span><a href="#" target="_blank">yourmail@domain.com</a></li>
+                        <li> <span><i className="fa fa-map-marker" /> Adress :</span><a href="#" target="_blank">USA 27TH
                             Brooklyn NY</a></li>
-                        <li><span><i className="fal fa-phone" /> Phone :</span><a href="#">+7(111)123456789</a></li>
+                        <li><span><i className="fa fa-phone" /> Phone :</span><a href="#">+7(111)123456789</a></li>
                       </ul>
                       <div className="footer-social fl-wrap">
                         <ul>
