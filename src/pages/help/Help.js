@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import Footer2 from '../../othercomponents/Footer2'
 
 function Help() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
     <div id="wrapper">

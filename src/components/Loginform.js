@@ -32,10 +32,10 @@ function Loginform() {
                     <div className="custom-form">
                       <form method="post" name="registerform">
                         <label>Phone Number * <span className="dec-icon"><i className="fal fa-phone-alt" /></span></label>
-                        <input name="email" maxLength={10} type="text" onclick="this.select()" defaultValue />
+                        <input name="email" maxLength={10} type="text"  defaultValue />
                         <div className="pass-input-wrap fl-wrap">
                           <label>OTP * <span className="dec-icon"><i className="fal fa-key" /></span></label>
-                          <input name="password" type="password" autoComplete="off" onclick="this.select()" defaultValue />
+                          <input name="password" type="password" autoComplete="off"  defaultValue />
                         </div>
                         <div className="clearfix" />
                         <button type="submit" className="log_btn color-bg"> LogIn </button>
@@ -49,14 +49,14 @@ function Loginform() {
                       <div className="custom-form">
                         <form method="post" name="registerform" className="main-register-form" id="main-register-form2">
                           <label>Full Name * <span className="dec-icon"><i className="fal fa-user" /></span></label>
-                          <input name="name" type="text" onclick="this.select()" defaultValue />
+                          <input name="name" type="text"  defaultValue />
                           <label>Email Address * <span className="dec-icon"><i className="fal fa-envelope" /></span></label>
-                          <input name="email" type="text" onclick="this.select()" defaultValue />
+                          <input name="email" type="text"  defaultValue />
                           <label>Phone Number * <span className="dec-icon"><i className="fal fa-phone-alt" /></span></label>
-                          <input name="email" maxLength={10} type="text" onclick="this.select()" defaultValue />
+                          <input name="email" maxLength={10} type="text"  defaultValue />
                           <div className="pass-input-wrap fl-wrap">
                             <label>OTP * <span className="dec-icon"><i className="fal fa-key" /></span></label>
-                            <input name="password" type="password" autoComplete="off" onclick="this.select()" defaultValue />
+                            <input name="password" type="password" autoComplete="off"  defaultValue />
                           </div>
                           <div className="filter-tags ft-list">
                             <input id="check-a2" type="checkbox" name="check" />

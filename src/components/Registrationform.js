@@ -1,8 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import $ from "jquery";
-import jQuery from "jquery";
 
+import img from "../assets/images/white-logo.png"; 
 function Registrationform(props) {
   const [option, setoption] = useState(true);
   const [formclose, setformclose] = useState(props.regForm);
@@ -12,14 +11,14 @@ function Registrationform(props) {
   //     modal.hide();
   //   });
   // }
-  const set =()=>{
+  const set = () => {
     // alert("hy")
     props.set();
     setformclose(false);
-  }
+  };
   return (
     <>
-      { formclose? (
+      {formclose ? (
         <div className="main-register-wrap modal">
           <div className="reg-overlay"></div>
           <div className="main-register-holder tabs-act">
@@ -29,7 +28,7 @@ function Registrationform(props) {
                 style={{ background: "#0b2239" }}
               >
                 <div className="main-register-logo fl-wrap">
-                  <img src="./assets/images/white-logo.png" alt="" />
+                  <img src={img} alt="" />
                 </div>
                 <div className="main-register-bg">
                   <div className="mrb_pin"></div>
@@ -39,20 +38,37 @@ function Registrationform(props) {
                 <div className="mrb_dec mrb_dec2"></div>
               </div>
               <div className="main-register">
-                <div className="close-reg"  >
-                  <i className="fa fa-times" onClick={()=>set()} ></i>
+                <div className="close-reg">
+                  <i className="fa fa-times" onClick={() => set()}></i>
                 </div>
                 <ul className="tabs-menu fl-wrap no-list-style">
-                  <li className="current">
-                    <a href="#tab-1" onClick={() => setoption(true)}>
-                      <i className="fa fa-sign-in-alt"></i> Login
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#tab-2" onClick={() => setoption(false)}>
-                      <i className="fa fa-user-plus"></i> Register
-                    </a>
-                  </li>
+                  {option ? (
+                    <>
+                      <li className="current">
+                        <a onClick={() => setoption(true)} style={{cursor:"pointer"}}>
+                          <i className="fa fa-sign-in-alt"></i> Login
+                        </a>
+                      </li>
+                      <li>
+                        <a onClick={() => setoption(false)} style={{cursor:"pointer"}}>
+                          <i className="fa fa-user-plus"></i> Register
+                        </a>
+                      </li>
+                    </>
+                  ) : (
+                    <>
+                      <li>
+                        <a onClick={() => setoption(true)} style={{cursor:"pointer"}}>
+                          <i className="fa fa-sign-in-alt"></i> Login
+                        </a>
+                      </li>
+                      <li className="current">
+                        <a onClick={() => setoption(false)} style={{cursor:"pointer"}}>
+                          <i className="fa fa-user-plus"></i> Register
+                        </a>
+                      </li>
+                    </>
+                  )}
                 </ul>
                 {/* <!--tabs --> */}
                 <div className="tabs-container">
@@ -72,7 +88,7 @@ function Registrationform(props) {
                               name="email"
                               maxlength="10"
                               type="text"
-                              onClick="this.select()"
+                              
                               value=""
                             />
                             <div className="pass-input-wrap fl-wrap">
@@ -86,7 +102,7 @@ function Registrationform(props) {
                                 name="password"
                                 type="password"
                                 autocomplete="off"
-                                onClick="this.select()"
+                                
                                 value=""
                               />
                             </div>
@@ -119,7 +135,7 @@ function Registrationform(props) {
                             <input
                               name="name"
                               type="text"
-                              onClick="this.select()"
+                              
                               value=""
                             />
                             <label>
@@ -131,7 +147,7 @@ function Registrationform(props) {
                             <input
                               name="email"
                               type="text"
-                              onClick="this.select()"
+                              
                               value=""
                             />
                             <label>
@@ -144,7 +160,7 @@ function Registrationform(props) {
                               name="email"
                               maxlength="10"
                               type="text"
-                              onClick="this.select()"
+                              
                               value=""
                             />
                             <div className="pass-input-wrap fl-wrap">
@@ -158,7 +174,7 @@ function Registrationform(props) {
                                 name="password"
                                 type="password"
                                 autocomplete="off"
-                                onClick="this.select()"
+                                
                                 value=""
                               />
                             </div>
@@ -194,9 +210,7 @@ function Registrationform(props) {
           </div>
         </div>
       ) : (
-        <>
-
-        </>
+        <></>
       )}
     </>
   );

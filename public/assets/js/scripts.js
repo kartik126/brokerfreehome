@@ -1064,5 +1064,3 @@ $(document).ready(function () {
   initHomeradar();
   initparallax();
 });
-
-

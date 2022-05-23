@@ -1,19 +1,19 @@
 import React from 'react'
-
+import img from "../assets/NEW/Images/2.png"
 function Bfhworks() {
   return (
     <>
     
      <section className="hidden-section single-hero-section" data-scrollax-parent="true" id="sec1" style={{paddingTop: '50px'}}>
         <div className="bg-wrap bg-parallax-wrap-gradien">
-          <div className="bg par-elem" style={{backgroundImage:`url(${"./assets/NEW/Images/2.png" })`}} 
+          <div className="bg par-elem" style={{backgroundImage:`url(${img})`}} 
           
           data-scrollax="properties: { translateY: '30%' }">
             <div className=" main_banner_parallax" />
           </div>
         </div>
         <div className="container">
-          {/* <div class="pricing-switcher-header" style="color: #0b2239;">How BFH works</div> */}
+          {/* <div className="pricing-switcher-header" style="color: #0b2239;">How BFH works</div> */}
           <div className="col-md-4">
             <div className="section-title fl-wrap">
               <h2>BHow BFH works</h2>

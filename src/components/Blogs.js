@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "../assets/images/agency/agent/1.jpg"
 function Blogs() {
   return (
     <>
@@ -51,7 +51,7 @@ function Blogs() {
                 <article className="geodir-category-listing fl-wrap">
                   <div className="geodir-category-img fl-wrap  agent_card">
                     <a className="geodir-category-img_item">
-                      <img src="./assets/images/agency/agent/1.jpg" alt="" />
+                      <img src={img} alt="" />
                     </a>
                   </div>
                   <div className="geodir-category-content fl-wrap">

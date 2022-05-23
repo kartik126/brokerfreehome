@@ -1,13 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-/*======================================
- [ -Main Stylesheet-
-  Theme: Homeradar
-  Version: 1.0
-  Last change: 17/12/2020 ]
-/*-------------Fonts---------------------------------------*/
-@import url('../css2.css');
-/*-------------General Style---------------------------------------*/
+
 html {
 	overflow-x: hidden !important;
 	height: 100%;
@@ -514,7 +507,7 @@ blockquote p {
 }
 
 .header-opt_btn span:after {
-	font-family: Font Awesome 6;
+	font-family: Font Awesome\ 5 Pro;
 	content: "\f0d7";
 	position: absolute;
 	right: 12px;
@@ -2102,7 +2095,7 @@ nav li ul a:after {
 
 .main-register-holder {
 	max-width: 850px;
-	margin: 100px auto 50px;
+	margin: 50px auto 50px;
 	position: relative;
 	z-index: 5;
 }
@@ -3687,7 +3680,8 @@ section.single-par2 .scroll-down-wrap {
 
 .listing-item {
 	float: left;
-	width: 50%;
+	/* width: 50%; */
+	height: 400px;
 	padding: 0 8px;
 	margin-bottom: 12px;
 }
@@ -3703,6 +3697,7 @@ section.single-par2 .scroll-down-wrap {
 	background: #fff;
 	padding: 0;
 	border: 1px solid #eee;
+	height: 227px;
 }
 
 .listing-item.has_one_column .geodir-category-img {
@@ -9227,13 +9222,35 @@ section.single-par2 .scroll-down-wrap {
 	}
 }
 
-.browse_property_grid_scroll {
-	overflow: -moz-scrollbars-vertical;
+/* .browse_property_grid_scroll {
+	overflow: -moz-scrollbars-vertical !important
+	;
 	overflow: scroll;
 	display: flex !important;
 	width: 100%;
+
 }
 
 .new_div_scroll_property{
 	width: 3000px;
+} */
+
+.owl-next{
+	position: absolute;
+	top: 40%;
+	right: -20px;
+}
+
+.owl-next Span {
+	font-size: 30px;
+}
+
+.owl-prev{
+	position: absolute;
+	top: 40%;
+	left: -20px;
+}
+
+.owl-prev Span {
+	font-size: 30px;
 }

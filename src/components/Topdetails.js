@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "../assets/images/all/27.jpg"
 function Topdetails() {
   return (
     <>
@@ -56,8 +56,8 @@ function Topdetails() {
               <div className="col-md-1" />
               <div className="col-md-6">
                 <div className="about-img fl-wrap">
-                  <img src="./assets/images/all/27.jpg" className="respimg" alt="" />
-                  {/* <div class="about-img-hotifer color-bg">
+                  <img src={img} className="respimg" alt="" />
+                  {/* <div className="about-img-hotifer color-bg">
 											<p>Your website is fully responsive so visitors can view your content from
 												their choice of device.
 											</p>

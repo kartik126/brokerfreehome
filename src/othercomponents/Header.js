@@ -19,9 +19,9 @@ function Header(props) {
     <header className="main-header">
       {/* <!--  logo  --> */}
       <div className="logo-holder">
-        <Link to="/">
+        <a href="/">
           <img src="logo/logo.png" alt="" />
-        </Link>
+        </a>
       </div>
       {/* <!-- logo end  -->
 			<!-- nav-button-wrap--> */}
@@ -53,7 +53,7 @@ function Header(props) {
           }}
         >
          
-          <i className="fa-solid fa-bars" style={{ display: "block !important" }} />
+          <i className="fa fa-bars" style={{ display: "block !important" }} />
         </a>
       </div>
       <div id="mySidenav" className="sidenav">
@@ -92,7 +92,7 @@ function Header(props) {
             </li>
             <li>
               <a href="#" target="_blank">
-                <i class="fab fa-vk"></i>
+                <i className="fab fa-vk"></i>
               </a>
             </li>
           </ul>
@@ -104,7 +104,7 @@ function Header(props) {
         className="show-reg-form "
         onClick={() => setregForm(true)}  
       >
-        <i class="fas fa-user"></i>
+        <i className="fas fa-user"></i>
         <span>Log In</span>
       </div>
       {/* <!--  login btn  end -->
@@ -115,7 +115,7 @@ function Header(props) {
         data-tooltip="Language"
       >
         <span>
-          <i class="fa fa-globe "></i>
+          <i className="fa fa-globe "></i>
         </span>
       </div>
       {/* <!--  header-opt_btn end -->
@@ -131,18 +131,18 @@ function Header(props) {
         <nav>
           <ul className="no-list-style">
             <li>
-              <Link to="/" className="act-link">
+              <a href="/" className="act-link">
                 Buyer
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to="/seller">Seller</Link>
+              <a href="/seller">Seller</a>
             </li>
             <li>
-              <Link to="/tenant">Tenant</Link>
+              <a href="/tenant">Tenant</a>
             </li>
             <li>
-              <Link to="/landlord">Landlord</Link>
+              <a href="/landlord">Landlord</a>
             </li>
             {/* <!-- <li>
                 <a href="#">Listings <i className="fa fa-caret-down"></i></a>

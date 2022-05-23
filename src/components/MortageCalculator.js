@@ -79,7 +79,7 @@ function MortageCalculator() {
                       <div className="half-carousel-item-new fl-wrap" style={{borderRadius: 0, height: '320px'}}>
                         <div className="half-carousel-content">
                           <div className="services-item-new fl-wrap">
-                          <i class="fa fa-file"></i>
+                          <i className="fa fa-file"></i>
                             {/* <i className="fa fa-file" /> */}
                           </div>
                           <h3>Apply for Mortgage</h3>

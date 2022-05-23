@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Bfhworks from "../../components/Bfhworks";
 import Blogs from "../../components/Blogs";
 import Helpdesk from "../../components/Helpdesk";
@@ -10,6 +10,9 @@ import Footer from "../../othercomponents/Footer";
 import Header from "../../othercomponents/Header";
 
 function Seller() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Header />

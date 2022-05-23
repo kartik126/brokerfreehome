@@ -5,11 +5,14 @@ import Blogspage from "./pages/blogspage/Blogspage";
 import Buyer from "./pages/buyer/Buyer";
 import Contacts from "./pages/contacts/Contacts";
 import Contactus from "./pages/contactus/Contactus";
+import Dashboard from "./pages/dashboard/Dashboard";
 import Faq from "./pages/Faq/Faq";
 import Help from "./pages/help/Help";
 import Landlord from "./pages/landlord/Landlord";
 import Pricing from "./pages/pricing/Pricing";
+import Searchlisting from "./pages/searchlisting/Searchlisting";
 import Seller from "./pages/Seller/Seller";
+import Singlelisting from "./pages/singlelisting/Singlelisting";
 import Tenant from "./pages/tenant/Tenant";
 import Termscondition from "./pages/termsandcondition/Termscondition";
 
@@ -25,10 +28,13 @@ function App() {
       <Route path="/faq" element={<Faq />} />
       <Route path="/termsandcondition" element={<Termscondition />} />
       <Route path="/contactus" element={<Contactus />} />
-      <Route path="/ourblogs" element={<Blogspage/>} />
-      <Route path="/pricing" element={<Pricing/>} />
-      <Route path="/contacts" element={<Contacts/>} />
-      <Route path="/help" element={<Help/>} />
+      <Route path="/ourblogs" element={<Blogspage />} />
+      <Route path="/pricing" element={<Pricing />} />
+      <Route path="/contacts" element={<Contacts />} />
+      <Route path="/help" element={<Help />} />
+      <Route path="/searchlisting" element={<Searchlisting />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/singlelisting" element={<Singlelisting />} />
     </Routes>
   );
 }

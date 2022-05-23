@@ -12,7 +12,7 @@ function Footer() {
                 <div className="col-md-3">
                   <div className="footer-widget fl-wrap">
                     <div className="footer-widget-logo fl-wrap">
-                      <a href="index.html">
+                      <a href="/">
                         <img src="logo/logo.png" alt="" />
                       </a>
                     </div>
@@ -56,16 +56,16 @@ function Footer() {
                     </div>
                     <ul className="footer-list fl-wrap">
                       <li>
-                        <Link to="/aboutus">About Us</Link>
+                        <a href="/aboutus">About Us</a>
                       </li>
                       <li>
-                        <Link to="/faq">Faq's</Link>
+                        <a href="/faq">Faq's</a>
                       </li>
                       <li>
-                        <Link to="/termsandcondition">Terms & Privacy Policy</Link>
+                        <a href="/termsandcondition">Terms & Privacy Policy</a>
                       </li>
                       <li>
-                        <Link to="/contactus">Contacts</Link>
+                        <a href="/contactus">Contacts</a>
                       </li>
                     </ul>
                   </div>

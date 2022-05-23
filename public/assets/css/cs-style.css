@@ -17,7 +17,7 @@ body {
 	text-align: center;
 	background: #fff;
 	color: #000;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @-o-viewport {
@@ -262,14 +262,14 @@ p {
 	font-weight: 500;
 	font-size: 12px;
 	position: relative;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #subscribe .enteremail::-webkit-input-placeholder {
 	color: #666;
 	font-weight: 500;
 	font-size: 12px;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #subscribe-button {
@@ -287,7 +287,7 @@ p {
 	color: #fff;
 	background: linear-gradient(to left, #3C6AFD, #3270FC);
 	transition: all 200ms linear;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .cs-social {
@@ -696,7 +696,7 @@ p {
 	font-size: 14px;
 	text-align: center;
 	border-right: 1px solid #e5e7f2;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .custom-form textarea {
@@ -714,7 +714,7 @@ p {
 	height: 200px;
 	resize: none;
 	padding: 25px 20px;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .btn {
@@ -730,7 +730,7 @@ p {
 	border: none;
 	cursor: pointer;
 	-webkit-appearance: none;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .custom-form textarea:focus,
@@ -746,7 +746,7 @@ p {
 	font-weight: 500;
 	font-size: 12px;
 	position: relative;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .custom-form input:-moz-placeholder,
@@ -754,7 +754,7 @@ p {
 	color: #666;
 	font-weight: 500;
 	font-size: 12px;
-	font-family: 'Jost', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #message div {

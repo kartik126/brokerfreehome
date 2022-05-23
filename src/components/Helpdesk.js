@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "../assets/images/bg/12.jpg"
 function Helpdesk() {
   return (
     <>
@@ -12,7 +12,8 @@ function Helpdesk() {
         <div className="bg-wrap bg-parallax-wrap-gradien">
           <div
             className="bg par-elem"
-            data-bg="images/bg/12.jpg"
+            style={{backgroundImage:`url(${img})`}} 
+            
             data-scrollax="properties: { translateY: '30%' }"
           >
             <div className=" main_banner_parallax" />

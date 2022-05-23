@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../othercomponents/Header";
 import Footer from "../../othercomponents/Footer";
 import { Link } from "react-router-dom";
 import Footer2 from "../../othercomponents/Footer2";
 function Aboutus() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Header />

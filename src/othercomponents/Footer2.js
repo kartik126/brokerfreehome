@@ -32,11 +32,11 @@ function Footer2() {
                         <h4>Helpful links</h4>
                       </div>
                       <ul className="footer-list fl-wrap">
-                        <li><Link to="/aboutus">About Our Company</Link></li>
-                        <li><Link to="/ourblogs">Our last News</Link></li>
-                        <li><Link to="/pricing">Pricing Plans</Link></li>
-                        <li><Link to="/contacts">Contacts</Link></li>
-                        <li><Link to="/help">Help Center</Link></li>
+                        <li><a href="/aboutus">About Our Company</a></li>
+                        <li><a href="/ourblogs">Our last News</a></li>
+                        <li><a href="/pricing">Pricing Plans</a></li>
+                        <li><a href="/contacts">Contacts</a></li>
+                        <li><a href="/help">Help Center</a></li>
                       </ul>
                     </div>
                   </div>

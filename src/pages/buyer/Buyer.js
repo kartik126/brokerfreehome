@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import Header from "../../othercomponents/Header";
 import Footer from "../../othercomponents/Footer";
 import Topdetails from "../../components/Topdetails";
@@ -11,6 +12,9 @@ import MortageCalculator from "../../components/MortageCalculator";
 import Getcontacted from "../../components/Getcontacted";
 
 function Buyer() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Header />
@@ -18,6 +22,7 @@ function Buyer() {
       <Topdetails />
       <Bfhworks />
       <Savingcalculator />
+      <BrowseProperty/>
       <BrowseProperty/>
       <MortageCalculator/>
       <Helpdesk/>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Bfhworks from "../../components/Bfhworks";
 import Blogs from "../../components/Blogs";
 import BrowseProperty from "../../components/BrowseProperty";
@@ -11,6 +11,9 @@ import Footer from "../../othercomponents/Footer";
 import Header from "../../othercomponents/Header";
 
 function Tenant() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Header />
