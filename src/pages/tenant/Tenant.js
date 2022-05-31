@@ -22,6 +22,7 @@ function Tenant() {
       <Bfhworks />
       <Savingcalculator />
       <BrowseProperty />
+      <BrowseProperty />
       <Helpdesk />
       <Getcontacted/>
       <Blogs />

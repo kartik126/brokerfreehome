@@ -1131,7 +1131,7 @@ function Dashboard() {
               </div>
             </div>
             {/* dasboard-widget-box  end*/}
-            <a href="#" className="btn  color-bg float-btn">
+            <a href="#" className="btn  color-bg float-btn-r ">
               Save Changes{" "}
             </a>
           </div>

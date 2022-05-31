@@ -26,7 +26,7 @@ function MortageCalculator() {
                     </div>
                     <div className="listing-item custom-form" style={{width: '100%', paddingTop: '20px'}}>
                       <div className="row">
-                        <div className="row" style={{padding: '20px'}}>
+                        <div className="row" style={{padding: '0px 20px'}}>
                           <div className="col-sm-6">
                             <label>Property Value<span className="dec-icon"><i className="far fa-money-bill" /></span></label>
                             <input type="text" placeholder="Property Value / Rental Value" defaultValue />
@@ -36,7 +36,7 @@ function MortageCalculator() {
                             <input type="text" placeholder={10000} defaultValue readOnly />
                           </div>
                         </div>
-                        <div className="row" style={{padding: '20px'}}>
+                        <div className="row" style={{padding: '0px 20px'}}>
                           <div className="col-sm-6">
                             <input type="text" className="price-range" data-min={100} data-max={100000} name="price-range1" data-step={1} defaultValue={1} data-prefix="A.E.D." />
                           </div>
@@ -44,7 +44,7 @@ function MortageCalculator() {
                             <input type="text" className="price-range" data-min={100} data-max={100000} name="price-range1" data-step={1} defaultValue={1} data-prefix="A.E.D." />
                           </div>
                         </div>
-                        <div className="row" style={{padding: '10px 20px'}}>
+                        <div className="row" style={{padding: '0px 20px'}}>
                           <a href="#" className="btn float-btn-r color-bg small-btn" style={{margin: 0}}>Compare</a>
                         </div>
                         <div>
@@ -74,7 +74,7 @@ function MortageCalculator() {
                   </a>
                 </div>
                 <div className="col-md-6" style={{paddingLeft: 0}}>
-                  <a href="listing.html">
+                  <a href="/mortgageform">
                     <div className="slick-item">
                       <div className="half-carousel-item-new fl-wrap" style={{borderRadius: 0, height: '320px'}}>
                         <div className="half-carousel-content">

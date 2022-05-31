@@ -12,6 +12,7 @@ import TenantBuyerDashboard from "./pages/dashboard/TenantBuyerDashboard";
 import Faq from "./pages/Faq/Faq";
 import Help from "./pages/help/Help";
 import Landlord from "./pages/landlord/Landlord";
+import Mortgageform from "./pages/mortgageform/Mortgageform";
 import Pricing from "./pages/pricing/Pricing";
 import Getcontactedbypropertyowner from "./pages/propertyowner/Getcontactedbypropertyowner";
 import Searchlisting from "./pages/searchlisting/Searchlisting";
@@ -43,6 +44,8 @@ function App() {
        <Route path="/editprofile" element={<Editprofile/>} />
        <Route path="/landlorddashboard" element={<Landlorddashboard/>} />
        <Route path="/tenantbuyerdashboard" element={<TenantBuyerDashboard/>} />
+       <Route path="/mortgageform" element={<Mortgageform/>} />
+
     </Routes>
   );
 }

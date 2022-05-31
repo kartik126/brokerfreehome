@@ -52,14 +52,14 @@ function Getcontactedbypropertyowner() {
             </div>
           </div>
           {/* breadcrumbs end */}
-          <section>
+          <div className="card"><section>
             <div className="col-md-2"></div>
             <div
               className="col-md-8"
               style={{
                 border: "1px solid #c5c5c5",
                 borderRadius: "5px",
-                padding: "10px",
+                padding: "20px",
               }}
             >
               <div className="row">
@@ -163,29 +163,24 @@ function Getcontactedbypropertyowner() {
                     />
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-6">
                   <div className="listsearch-input-item">
-                    <label>Min Budget AED</label>
+                    <label>Bedrooms</label>
                     <select
                       data-placeholder="Status"
                       className="chosen-select on-radius no-search-select"
                     >
-                      <option>select min price</option>
-                      <option>For Rent</option>
-                      <option>For Sale</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div className="listsearch-input-item">
-                    <label>Max Budget AED</label>
-                    <select
-                      data-placeholder="Status"
-                      className="chosen-select on-radius no-search-select"
-                    >
-                      <option>select max price</option>
-                      <option>For Rent</option>
-                      <option>For Sale</option>
+                      <option>Studio</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>9+</option>
                     </select>
                   </div>
                 </div>
@@ -229,49 +224,70 @@ function Getcontactedbypropertyowner() {
                     sitekey="Your client site key"
                     onChange={onChange}
                   />
-                  ,
                 </div>
               </div>
               <div className="row" style={{ paddingTop: "10px" }}>
                 <div className="col-md-12">
-                  <div className="form-group"
-                    style={{ display: "flex", alignItems: "center",paddingBottom:"10px" }}>
+                  <div
+                    className="form-group"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      paddingBottom: "10px",
+                    }}
+                  >
                     <input
                       class="form-check-input"
                       type="checkbox"
                       value=""
                       id="flexCheckDefault"
                     />
-                    <label class="form-check-label" for="flexCheckDefault"
-                      style={{ marginLeft: "10px" }}>
+                    <label
+                      class="form-check-label"
+                      for="flexCheckDefault"
+                      style={{ marginLeft: "10px" }}
+                    >
                       Is Mortgage Required ?
                     </label>
                   </div>
-                  <div className="form-group"
-                    style={{ display: "flex", alignItems: "center" }}>
+                  <div
+                    className="form-group"
+                    style={{ display: "flex", alignItems: "center" }}
+                  >
                     <input
                       class="form-check-input"
                       type="checkbox"
                       value=""
                       id="flexCheckDefault"
                     />
-                    <label class="form-check-label" for="flexCheckDefault"
-                      style={{ marginLeft: "10px" }}>
-                      I agree to the <b>Terms and Conditions</b> and <b>Privacy Policy</b>
+                    <label
+                      class="form-check-label"
+                      for="flexCheckDefault"
+                      style={{ marginLeft: "10px" }}
+                    >
+                      I agree to the <b>Terms and Conditions</b> and{" "}
+                      <b>Privacy Policy</b>
                     </label>
                   </div>
                 </div>
-                <div className="col-md-12"><p>
-                  <i>
-                    You agree and confirm that your contact details might be
-                    shared with a property developer or an individual owner that
-                    matches your requirement above
-                  </i>
-                </p></div>
+                <div className="col-md-12">
+                  <p>
+                    <i>
+                      You agree and confirm that your contact details might be
+                      shared with a property developer or an individual owner
+                      that matches your requirement above
+                    </i>
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-12">
+                <a href="#" className="btn  color-bg float-btn-r ">
+                  Post Requirements
+                </a>
               </div>
             </div>
             <div className="col-md-2"></div>
-          </section>
+          </section></div>
           <Footer />
         </div>
         <a className="to-top color-bg">

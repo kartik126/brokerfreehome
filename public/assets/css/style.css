@@ -1180,10 +1180,16 @@ nav li ul a:after {
 	color: #fff;
 	border-radius: 4px;
 	font-weight: 500;
-	font-size: 12px;
+	font-size: 15px;
 	margin-top: 15px;
 }
+.form_heading{
+display: flex;
 
+
+font-size: 15px;
+font-weight: 700;
+}
 .float-btn {
 	float: left;
 }
