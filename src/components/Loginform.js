@@ -38,7 +38,10 @@ function Loginform() {
                           <input name="password" type="password" autoComplete="off"  defaultValue />
                         </div>
                         <div className="clearfix" />
-                        <button type="submit" className="log_btn color-bg"> LogIn </button>
+                        <a href='/tenantbuyerdashboard'>
+                        <button className="log_btn color-bg"> LogIn </button>
+                        </a>
+                      
                       </form>
                     </div>
                   </div>

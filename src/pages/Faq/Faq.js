@@ -41,7 +41,7 @@ function Faq() {
             <div className="breadcrumbs fw-breadcrumbs sp-brd fl-wrap">
               <div className="container">
                 <div className="breadcrumbs-list">
-                  <a href="#">Home</a> <a href="#">Pages</a><span>Help FAQ</span>
+                  <a href="/">Home</a> <a href="#">Pages</a><span>Help FAQ</span>
                 </div>
                 <div className="share-holder hid-share">
                   <a href="#" className="share-btn showshare sfcs"> <i className="fas fa-share-alt" /> Share </a>

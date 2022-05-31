@@ -14,6 +14,8 @@ import Getcontacted from "../../components/Getcontacted";
 function Buyer() {
   useEffect(() => {
     window.scrollTo(0, 0);
+   
+
   });
   return (
     <>

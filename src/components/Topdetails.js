@@ -8,7 +8,7 @@ function Topdetails() {
           {/*about-wrap */}
           <div className="about-wrap">
             <div className="row">
-              <div className="col-md-5">
+              <div className="col-md-5 main_text_top">
                 <div className="about-title ab-hero fl-wrap">
                   <h2>Savings All The Way</h2>
                   <h4>

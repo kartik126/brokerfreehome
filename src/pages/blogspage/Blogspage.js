@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Footer2 from "../../othercomponents/Footer2";
+import Footer from "../../othercomponents/Footer";
 import Header from "../../othercomponents/Header";
 function Blogspage() {
   useEffect(() => {
@@ -8,7 +8,7 @@ function Blogspage() {
   });
   return (
     <>
-    <Header/>
+      <Header />
       <div id="wrapper">
         {/* content */}
         <div className="content">
@@ -20,8 +20,9 @@ function Blogspage() {
             <div className="bg-wrap bg-parallax-wrap-gradien">
               <div
                 className="bg par-elem "
-                style={{backgroundImage:`url(${"./assets/images/all/4.jpg" })`}} 
-               
+                style={{
+                  backgroundImage: `url(${"./assets/images/all/4.jpg"})`,
+                }}
                 data-scrollax="properties: { translateY: '30%' }"
               />
             </div>
@@ -48,7 +49,7 @@ function Blogspage() {
           <div className="breadcrumbs fw-breadcrumbs sp-brd fl-wrap">
             <div className="container">
               <div className="breadcrumbs-list">
-                <a href="#">Home</a> <span>Blog</span>
+                <a href="/">Home</a> <span>Blog</span>
               </div>
               <div className="share-holder hid-share">
                 <a href="#" className="share-btn showshare sfcs">
@@ -80,7 +81,10 @@ function Blogspage() {
                                 >
                                   <i className="fal fa-search" />
                                 </a>
-                                <img src="./assets/images/all/blog/1.jpg" alt="" />
+                                <img
+                                  src="./assets/images/all/blog/1.jpg"
+                                  alt=""
+                                />
                               </div>
                             </div>
                             {/*  slick-slide-item end */}
@@ -93,7 +97,10 @@ function Blogspage() {
                                 >
                                   <i className="fal fa-search" />
                                 </a>
-                                <img src="./assets/images/all/blog/2.jpg" alt="" />
+                                <img
+                                  src="./assets/images/all/blog/2.jpg"
+                                  alt=""
+                                />
                               </div>
                             </div>
                             {/*  slick-slide-item end */}
@@ -106,7 +113,10 @@ function Blogspage() {
                                 >
                                   <i className="fal fa-search" />
                                 </a>
-                                <img src="./assets/images/all/blog/3.jpg" alt="" />
+                                <img
+                                  src="./assets/images/all/blog/3.jpg"
+                                  alt=""
+                                />
                               </div>
                             </div>
                             {/*  slick-slide-item end */}
@@ -346,7 +356,10 @@ function Blogspage() {
                             <li>
                               <div className="widget-posts-img">
                                 <a href="blog-single.html">
-                                  <img src="./assets/images/all/blog/5.jpg" alt="" />
+                                  <img
+                                    src="./assets/images/all/blog/5.jpg"
+                                    alt=""
+                                  />
                                 </a>
                               </div>
                               <div className="widget-posts-descr">
@@ -366,7 +379,10 @@ function Blogspage() {
                             <li>
                               <div className="widget-posts-img">
                                 <a href="blog-single.html">
-                                  <img src="./assets/images/all/blog/2.jpg" alt="" />
+                                  <img
+                                    src="./assets/images/all/blog/2.jpg"
+                                    alt=""
+                                  />
                                 </a>
                               </div>
                               <div className="widget-posts-descr">
@@ -386,7 +402,10 @@ function Blogspage() {
                             <li>
                               <div className="widget-posts-img">
                                 <a href="blog-single.html">
-                                  <img src="./assets/images/all/blog/6.jpg" alt="" />
+                                  <img
+                                    src="./assets/images/all/blog/6.jpg"
+                                    alt=""
+                                  />
                                 </a>{" "}
                               </div>
                               <div className="widget-posts-descr">
@@ -406,7 +425,10 @@ function Blogspage() {
                             <li>
                               <div className="widget-posts-img">
                                 <a href="blog-single.html">
-                                  <img src="./assets/images/all/blog/4.jpg" alt="" />
+                                  <img
+                                    src="./assets/images/all/blog/4.jpg"
+                                    alt=""
+                                  />
                                 </a>{" "}
                               </div>
                               <div className="widget-posts-descr">
@@ -523,13 +545,13 @@ function Blogspage() {
         {/* subscribe-wrap */}
         {/* subscribe-wrap end */}
         {/* footer */}
-        
-        <Footer2/>
+
+        <Footer />
         {/* footer end */}
       </div>
       {/* wrapper end */}
       {/*register form */}
-    
+
       {/*register form end */}
       {/*secondary-nav */}
       <div className="secondary-nav">

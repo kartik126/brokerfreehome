@@ -10,6 +10,7 @@ const options = {
   loop: true,
   margin: 20,
   nav: true,
+  dots: true,
   responsive: {
     0: {
       items: 2,
@@ -43,499 +44,499 @@ function BrowseProperty() {
         <div className="clearfix"></div>
 
         <OwlCarousel {...options}>
-              <div className="listing-item">
-                <article className="geodir-category-listing fl-wrap">
-                  <div className="geodir-category-img fl-wrap">
-                    <a
-                      href="listing-single3.html"
-                      className="geodir-category-img_item"
-                    >
-                      <img src={img} alt="" />
-                      <div className="overlay"></div>
+          <div className="listing-item">
+            <article className="geodir-category-listing fl-wrap">
+              <div className="geodir-category-img fl-wrap">
+                <a
+                  href="singlelisting"
+                  className="geodir-category-img_item"
+                >
+                  <img src={img} alt="" />
+                  <div className="overlay"></div>
+                </a>
+                <div className="geodir-category-location">
+                  <a
+                    href="#"
+                    className="single-map-item tolt"
+                    data-newlatitude="40.88496706"
+                    data-newlongitude="-73.88191222"
+                    data-microtip-position="top-left"
+                    data-tooltip="On the map"
+                  >
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Prince St, NY, USA</span>
+                  </a>
+                </div>
+                <ul className="list-single-opt_header_cat">
+                  <li>
+                    <a href="#" className="cat-opt blue-bg">
+                      Sale
                     </a>
-                    <div className="geodir-category-location">
-                      <a
-                        href="#"
-                        className="single-map-item tolt"
-                        data-newlatitude="40.88496706"
-                        data-newlongitude="-73.88191222"
-                        data-microtip-position="top-left"
-                        data-tooltip="On the map"
-                      >
-                        <i className="fas fa-map-marker-alt"></i>
-                        <span>Prince St, NY, USA</span>
-                      </a>
-                    </div>
-                    <ul className="list-single-opt_header_cat">
-                      <li>
-                        <a href="#" className="cat-opt blue-bg">
-                          Sale
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="cat-opt color-bg">
-                          Villa
-                        </a>
-                      </li>
-                    </ul>
-                    <a
-                      href="#"
-                      className="geodir_save-btn tolt"
-                      data-microtip-position="left"
-                      data-tooltip="Save"
-                    >
-                      <span>
-                        <i className="fal fa-heart"></i>
-                      </span>
+                  </li>
+                  <li>
+                    <a href="#" className="cat-opt color-bg">
+                      Villa
                     </a>
-                    <div className="geodir-category-listing_media-list">
-                      <span>
-                        <i className="fas fa-eye"></i> 12
-                      </span>
-                    </div>
-                  </div>
-                  <div className="geodir-category-content fl-wrap">
-                    <h3 className="title-sin_item">
-                      <a href="listing-single3.html">Kayak Point House</a>
-                    </h3>
-                    <div className="geodir-category-content_price">
-                      A.E.D. 500.000
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas in pulvinar neque. Nulla finibus lobortis
-                      pulvinar. Donec a consectetur nulla.
-                    </p>
-                    <div className="geodir-category-content-details">
-                      <ul>
-                        <li>
-                          <i className="fal fa-bed"></i>
-                          <span>5</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-bath"></i>
-                          <span>1</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-cube"></i>
-                          <span>510 ft2</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="geodir_save-btn tolt"
+                  data-microtip-position="left"
+                  data-tooltip="Save"
+                >
+                  <span>
+                    <i className="fal fa-heart"></i>
+                  </span>
+                </a>
+                <div className="geodir-category-listing_media-list">
+                  <span>
+                    <i className="fas fa-eye"></i> 12
+                  </span>
+                </div>
               </div>
-              <div className="listing-item">
-                <article className="geodir-category-listing fl-wrap">
-                  <div className="geodir-category-img fl-wrap">
-                    <a
-                      href="listing-single3.html"
-                      className="geodir-category-img_item"
-                    >
-                      <img src={img} alt="" />
-                      <div className="overlay"></div>
-                    </a>
-                    <div className="geodir-category-location">
-                      <a
-                        href="#"
-                        className="single-map-item tolt"
-                        data-newlatitude="40.88496706"
-                        data-newlongitude="-73.88191222"
-                        data-microtip-position="top-left"
-                        data-tooltip="On the map"
-                      >
-                        <i className="fas fa-map-marker-alt"></i>
-                        <span>Prince St, NY, USA</span>
-                      </a>
-                    </div>
-                    <ul className="list-single-opt_header_cat">
-                      <li>
-                        <a href="#" className="cat-opt blue-bg">
-                          Sale
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="cat-opt color-bg">
-                          Villa
-                        </a>
-                      </li>
-                    </ul>
-                    <a
-                      href="#"
-                      className="geodir_save-btn tolt"
-                      data-microtip-position="left"
-                      data-tooltip="Save"
-                    >
-                      <span>
-                        <i className="fal fa-heart"></i>
-                      </span>
-                    </a>
-                    <div className="geodir-category-listing_media-list">
-                      <span>
-                        <i className="fas fa-eye"></i> 12
-                      </span>
-                    </div>
-                  </div>
-                  <div className="geodir-category-content fl-wrap">
-                    <h3 className="title-sin_item">
-                      <a href="listing-single3.html">Kayak Point House</a>
-                    </h3>
-                    <div className="geodir-category-content_price">
-                      A.E.D. 500.000
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas in pulvinar neque. Nulla finibus lobortis
-                      pulvinar. Donec a consectetur nulla.
-                    </p>
-                    <div className="geodir-category-content-details">
-                      <ul>
-                        <li>
-                          <i className="fal fa-bed"></i>
-                          <span>5</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-bath"></i>
-                          <span>1</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-cube"></i>
-                          <span>510 ft2</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
+              <div className="geodir-category-content fl-wrap">
+                <h3 className="title-sin_item">
+                  <a href="singlelisting">Kayak Point House</a>
+                </h3>
+                <div className="geodir-category-content_price">
+                  A.E.D. 500.000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                  Donec a consectetur nulla.
+                </p>
+                <div className="geodir-category-content-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-bed"></i>
+                      <span>5</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-bath"></i>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-cube"></i>
+                      <span>510 ft2</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div className="listing-item">
-                <article className="geodir-category-listing fl-wrap">
-                  <div className="geodir-category-img fl-wrap">
-                    <a
-                      href="listing-single3.html"
-                      className="geodir-category-img_item"
-                    >
-                      <img src={img} alt="" />
-                      <div className="overlay"></div>
+            </article>
+          </div>
+          <div className="listing-item">
+            <article className="geodir-category-listing fl-wrap">
+              <div className="geodir-category-img fl-wrap">
+                <a
+                  href="singlelisting"
+                  className="geodir-category-img_item"
+                >
+                  <img src={img} alt="" />
+                  <div className="overlay"></div>
+                </a>
+                <div className="geodir-category-location">
+                  <a
+                    href="#"
+                    className="single-map-item tolt"
+                    data-newlatitude="40.88496706"
+                    data-newlongitude="-73.88191222"
+                    data-microtip-position="top-left"
+                    data-tooltip="On the map"
+                  >
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Prince St, NY, USA</span>
+                  </a>
+                </div>
+                <ul className="list-single-opt_header_cat">
+                  <li>
+                    <a href="#" className="cat-opt blue-bg">
+                      Sale
                     </a>
-                    <div className="geodir-category-location">
-                      <a
-                        href="#"
-                        className="single-map-item tolt"
-                        data-newlatitude="40.88496706"
-                        data-newlongitude="-73.88191222"
-                        data-microtip-position="top-left"
-                        data-tooltip="On the map"
-                      >
-                        <i className="fas fa-map-marker-alt"></i>
-                        <span>Prince St, NY, USA</span>
-                      </a>
-                    </div>
-                    <ul className="list-single-opt_header_cat">
-                      <li>
-                        <a href="#" className="cat-opt blue-bg">
-                          Sale
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="cat-opt color-bg">
-                          Villa
-                        </a>
-                      </li>
-                    </ul>
-                    <a
-                      href="#"
-                      className="geodir_save-btn tolt"
-                      data-microtip-position="left"
-                      data-tooltip="Save"
-                    >
-                      <span>
-                        <i className="fal fa-heart"></i>
-                      </span>
+                  </li>
+                  <li>
+                    <a href="#" className="cat-opt color-bg">
+                      Villa
                     </a>
-                    <div className="geodir-category-listing_media-list">
-                      <span>
-                        <i className="fas fa-eye"></i> 12
-                      </span>
-                    </div>
-                  </div>
-                  <div className="geodir-category-content fl-wrap">
-                    <h3 className="title-sin_item">
-                      <a href="listing-single3.html">Kayak Point House</a>
-                    </h3>
-                    <div className="geodir-category-content_price">
-                      A.E.D. 500.000
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas in pulvinar neque. Nulla finibus lobortis
-                      pulvinar. Donec a consectetur nulla.
-                    </p>
-                    <div className="geodir-category-content-details">
-                      <ul>
-                        <li>
-                          <i className="fal fa-bed"></i>
-                          <span>5</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-bath"></i>
-                          <span>1</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-cube"></i>
-                          <span>510 ft2</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="geodir_save-btn tolt"
+                  data-microtip-position="left"
+                  data-tooltip="Save"
+                >
+                  <span>
+                    <i className="fal fa-heart"></i>
+                  </span>
+                </a>
+                <div className="geodir-category-listing_media-list">
+                  <span>
+                    <i className="fas fa-eye"></i> 12
+                  </span>
+                </div>
               </div>
-              <div className="listing-item">
-                <article className="geodir-category-listing fl-wrap">
-                  <div className="geodir-category-img fl-wrap">
-                    <a
-                      href="listing-single3.html"
-                      className="geodir-category-img_item"
-                    >
-                      <img src={img} alt="" />
-                      <div className="overlay"></div>
-                    </a>
-                    <div className="geodir-category-location">
-                      <a
-                        href="#"
-                        className="single-map-item tolt"
-                        data-newlatitude="40.88496706"
-                        data-newlongitude="-73.88191222"
-                        data-microtip-position="top-left"
-                        data-tooltip="On the map"
-                      >
-                        <i className="fas fa-map-marker-alt"></i>
-                        <span>Prince St, NY, USA</span>
-                      </a>
-                    </div>
-                    <ul className="list-single-opt_header_cat">
-                      <li>
-                        <a href="#" className="cat-opt blue-bg">
-                          Sale
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="cat-opt color-bg">
-                          Villa
-                        </a>
-                      </li>
-                    </ul>
-                    <a
-                      href="#"
-                      className="geodir_save-btn tolt"
-                      data-microtip-position="left"
-                      data-tooltip="Save"
-                    >
-                      <span>
-                        <i className="fal fa-heart"></i>
-                      </span>
-                    </a>
-                    <div className="geodir-category-listing_media-list">
-                      <span>
-                        <i className="fas fa-eye"></i> 12
-                      </span>
-                    </div>
-                  </div>
-                  <div className="geodir-category-content fl-wrap">
-                    <h3 className="title-sin_item">
-                      <a href="listing-single3.html">Kayak Point House</a>
-                    </h3>
-                    <div className="geodir-category-content_price">
-                      A.E.D. 500.000
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas in pulvinar neque. Nulla finibus lobortis
-                      pulvinar. Donec a consectetur nulla.
-                    </p>
-                    <div className="geodir-category-content-details">
-                      <ul>
-                        <li>
-                          <i className="fal fa-bed"></i>
-                          <span>5</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-bath"></i>
-                          <span>1</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-cube"></i>
-                          <span>510 ft2</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
+              <div className="geodir-category-content fl-wrap">
+                <h3 className="title-sin_item">
+                  <a href="singlelisting">Kayak Point House</a>
+                </h3>
+                <div className="geodir-category-content_price">
+                  A.E.D. 500.000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                  Donec a consectetur nulla.
+                </p>
+                <div className="geodir-category-content-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-bed"></i>
+                      <span>5</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-bath"></i>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-cube"></i>
+                      <span>510 ft2</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div className="listing-item">
-                <article className="geodir-category-listing fl-wrap">
-                  <div className="geodir-category-img fl-wrap">
-                    <a
-                      href="listing-single3.html"
-                      className="geodir-category-img_item"
-                    >
-                      <img src={img} alt="" />
-                      <div className="overlay"></div>
+            </article>
+          </div>
+          <div className="listing-item">
+            <article className="geodir-category-listing fl-wrap">
+              <div className="geodir-category-img fl-wrap">
+                <a
+                  href="singlelisting"
+                  className="geodir-category-img_item"
+                >
+                  <img src={img} alt="" />
+                  <div className="overlay"></div>
+                </a>
+                <div className="geodir-category-location">
+                  <a
+                    href="#"
+                    className="single-map-item tolt"
+                    data-newlatitude="40.88496706"
+                    data-newlongitude="-73.88191222"
+                    data-microtip-position="top-left"
+                    data-tooltip="On the map"
+                  >
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Prince St, NY, USA</span>
+                  </a>
+                </div>
+                <ul className="list-single-opt_header_cat">
+                  <li>
+                    <a href="#" className="cat-opt blue-bg">
+                      Sale
                     </a>
-                    <div className="geodir-category-location">
-                      <a
-                        href="#"
-                        className="single-map-item tolt"
-                        data-newlatitude="40.88496706"
-                        data-newlongitude="-73.88191222"
-                        data-microtip-position="top-left"
-                        data-tooltip="On the map"
-                      >
-                        <i className="fas fa-map-marker-alt"></i>
-                        <span>Prince St, NY, USA</span>
-                      </a>
-                    </div>
-                    <ul className="list-single-opt_header_cat">
-                      <li>
-                        <a href="#" className="cat-opt blue-bg">
-                          Sale
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="cat-opt color-bg">
-                          Villa
-                        </a>
-                      </li>
-                    </ul>
-                    <a
-                      href="#"
-                      className="geodir_save-btn tolt"
-                      data-microtip-position="left"
-                      data-tooltip="Save"
-                    >
-                      <span>
-                        <i className="fal fa-heart"></i>
-                      </span>
+                  </li>
+                  <li>
+                    <a href="#" className="cat-opt color-bg">
+                      Villa
                     </a>
-                    <div className="geodir-category-listing_media-list">
-                      <span>
-                        <i className="fas fa-eye"></i> 12
-                      </span>
-                    </div>
-                  </div>
-                  <div className="geodir-category-content fl-wrap">
-                    <h3 className="title-sin_item">
-                      <a href="listing-single3.html">Kayak Point House</a>
-                    </h3>
-                    <div className="geodir-category-content_price">
-                      A.E.D. 500.000
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas in pulvinar neque. Nulla finibus lobortis
-                      pulvinar. Donec a consectetur nulla.
-                    </p>
-                    <div className="geodir-category-content-details">
-                      <ul>
-                        <li>
-                          <i className="fal fa-bed"></i>
-                          <span>5</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-bath"></i>
-                          <span>1</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-cube"></i>
-                          <span>510 ft2</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="geodir_save-btn tolt"
+                  data-microtip-position="left"
+                  data-tooltip="Save"
+                >
+                  <span>
+                    <i className="fal fa-heart"></i>
+                  </span>
+                </a>
+                <div className="geodir-category-listing_media-list">
+                  <span>
+                    <i className="fas fa-eye"></i> 12
+                  </span>
+                </div>
               </div>
-              <div className="listing-item">
-                <article className="geodir-category-listing fl-wrap">
-                  <div className="geodir-category-img fl-wrap">
-                    <a
-                      href="listing-single3.html"
-                      className="geodir-category-img_item"
-                    >
-                      <img src={img} alt="" />
-                      <div className="overlay"></div>
-                    </a>
-                    <div className="geodir-category-location">
-                      <a
-                        href="#"
-                        className="single-map-item tolt"
-                        data-newlatitude="40.88496706"
-                        data-newlongitude="-73.88191222"
-                        data-microtip-position="top-left"
-                        data-tooltip="On the map"
-                      >
-                        <i className="fas fa-map-marker-alt"></i>
-                        <span>Prince St, NY, USA</span>
-                      </a>
-                    </div>
-                    <ul className="list-single-opt_header_cat">
-                      <li>
-                        <a href="#" className="cat-opt blue-bg">
-                          Sale
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="cat-opt color-bg">
-                          Villa
-                        </a>
-                      </li>
-                    </ul>
-                    <a
-                      href="#"
-                      className="geodir_save-btn tolt"
-                      data-microtip-position="left"
-                      data-tooltip="Save"
-                    >
-                      <span>
-                        <i className="fal fa-heart"></i>
-                      </span>
-                    </a>
-                    <div className="geodir-category-listing_media-list">
-                      <span>
-                        <i className="fas fa-eye"></i> 12
-                      </span>
-                    </div>
-                  </div>
-                  <div className="geodir-category-content fl-wrap">
-                    <h3 className="title-sin_item">
-                      <a href="listing-single3.html">Kayak Point House</a>
-                    </h3>
-                    <div className="geodir-category-content_price">
-                      A.E.D. 500.000
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas in pulvinar neque. Nulla finibus lobortis
-                      pulvinar. Donec a consectetur nulla.
-                    </p>
-                    <div className="geodir-category-content-details">
-                      <ul>
-                        <li>
-                          <i className="fal fa-bed"></i>
-                          <span>5</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-bath"></i>
-                          <span>1</span>
-                        </li>
-                        <li>
-                          <i className="fal fa-cube"></i>
-                          <span>510 ft2</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </article>
+              <div className="geodir-category-content fl-wrap">
+                <h3 className="title-sin_item">
+                  <a href="singlelisting">Kayak Point House</a>
+                </h3>
+                <div className="geodir-category-content_price">
+                  A.E.D. 500.000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                  Donec a consectetur nulla.
+                </p>
+                <div className="geodir-category-content-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-bed"></i>
+                      <span>5</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-bath"></i>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-cube"></i>
+                      <span>510 ft2</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </OwlCarousel>
+            </article>
+          </div>
+          <div className="listing-item">
+            <article className="geodir-category-listing fl-wrap">
+              <div className="geodir-category-img fl-wrap">
+                <a
+                  href="singlelisting"
+                  className="geodir-category-img_item"
+                >
+                  <img src={img} alt="" />
+                  <div className="overlay"></div>
+                </a>
+                <div className="geodir-category-location">
+                  <a
+                    href="#"
+                    className="single-map-item tolt"
+                    data-newlatitude="40.88496706"
+                    data-newlongitude="-73.88191222"
+                    data-microtip-position="top-left"
+                    data-tooltip="On the map"
+                  >
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Prince St, NY, USA</span>
+                  </a>
+                </div>
+                <ul className="list-single-opt_header_cat">
+                  <li>
+                    <a href="#" className="cat-opt blue-bg">
+                      Sale
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="cat-opt color-bg">
+                      Villa
+                    </a>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="geodir_save-btn tolt"
+                  data-microtip-position="left"
+                  data-tooltip="Save"
+                >
+                  <span>
+                    <i className="fal fa-heart"></i>
+                  </span>
+                </a>
+                <div className="geodir-category-listing_media-list">
+                  <span>
+                    <i className="fas fa-eye"></i> 12
+                  </span>
+                </div>
+              </div>
+              <div className="geodir-category-content fl-wrap">
+                <h3 className="title-sin_item">
+                  <a href="singlelisting">Kayak Point House</a>
+                </h3>
+                <div className="geodir-category-content_price">
+                  A.E.D. 500.000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                  Donec a consectetur nulla.
+                </p>
+                <div className="geodir-category-content-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-bed"></i>
+                      <span>5</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-bath"></i>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-cube"></i>
+                      <span>510 ft2</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div className="listing-item">
+            <article className="geodir-category-listing fl-wrap">
+              <div className="geodir-category-img fl-wrap">
+                <a
+                  href="singlelisting"
+                  className="geodir-category-img_item"
+                >
+                  <img src={img} alt="" />
+                  <div className="overlay"></div>
+                </a>
+                <div className="geodir-category-location">
+                  <a
+                    href="#"
+                    className="single-map-item tolt"
+                    data-newlatitude="40.88496706"
+                    data-newlongitude="-73.88191222"
+                    data-microtip-position="top-left"
+                    data-tooltip="On the map"
+                  >
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Prince St, NY, USA</span>
+                  </a>
+                </div>
+                <ul className="list-single-opt_header_cat">
+                  <li>
+                    <a href="#" className="cat-opt blue-bg">
+                      Sale
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="cat-opt color-bg">
+                      Villa
+                    </a>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="geodir_save-btn tolt"
+                  data-microtip-position="left"
+                  data-tooltip="Save"
+                >
+                  <span>
+                    <i className="fal fa-heart"></i>
+                  </span>
+                </a>
+                <div className="geodir-category-listing_media-list">
+                  <span>
+                    <i className="fas fa-eye"></i> 12
+                  </span>
+                </div>
+              </div>
+              <div className="geodir-category-content fl-wrap">
+                <h3 className="title-sin_item">
+                  <a href="singlelisting">Kayak Point House</a>
+                </h3>
+                <div className="geodir-category-content_price">
+                  A.E.D. 500.000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                  Donec a consectetur nulla.
+                </p>
+                <div className="geodir-category-content-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-bed"></i>
+                      <span>5</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-bath"></i>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-cube"></i>
+                      <span>510 ft2</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div className="listing-item">
+            <article className="geodir-category-listing fl-wrap">
+              <div className="geodir-category-img fl-wrap">
+                <a
+                  href="singlelisting"
+                  className="geodir-category-img_item"
+                >
+                  <img src={img} alt="" />
+                  <div className="overlay"></div>
+                </a>
+                <div className="geodir-category-location">
+                  <a
+                    href="#"
+                    className="single-map-item tolt"
+                    data-newlatitude="40.88496706"
+                    data-newlongitude="-73.88191222"
+                    data-microtip-position="top-left"
+                    data-tooltip="On the map"
+                  >
+                    <i className="fas fa-map-marker-alt"></i>
+                    <span>Prince St, NY, USA</span>
+                  </a>
+                </div>
+                <ul className="list-single-opt_header_cat">
+                  <li>
+                    <a href="#" className="cat-opt blue-bg">
+                      Sale
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="cat-opt color-bg">
+                      Villa
+                    </a>
+                  </li>
+                </ul>
+                <a
+                  href="#"
+                  className="geodir_save-btn tolt"
+                  data-microtip-position="left"
+                  data-tooltip="Save"
+                >
+                  <span>
+                    <i className="fal fa-heart"></i>
+                  </span>
+                </a>
+                <div className="geodir-category-listing_media-list">
+                  <span>
+                    <i className="fas fa-eye"></i> 12
+                  </span>
+                </div>
+              </div>
+              <div className="geodir-category-content fl-wrap">
+                <h3 className="title-sin_item">
+                  <a href="singlelisting">Kayak Point House</a>
+                </h3>
+                <div className="geodir-category-content_price">
+                  A.E.D. 500.000
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.
+                  Donec a consectetur nulla.
+                </p>
+                <div className="geodir-category-content-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-bed"></i>
+                      <span>5</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-bath"></i>
+                      <span>1</span>
+                    </li>
+                    <li>
+                      <i className="fal fa-cube"></i>
+                      <span>510 ft2</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </OwlCarousel>
         <a href="/searchlisting" className="btn float-btn-r small-btn color-bg">
           View All Properties
         </a>

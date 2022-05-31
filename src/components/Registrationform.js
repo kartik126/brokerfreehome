@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-import img from "../assets/images/white-logo.png"; 
+import img from "../assets/images/white-logo.png";
 function Registrationform(props) {
   const [option, setoption] = useState(true);
   const [formclose, setformclose] = useState(props.regForm);
@@ -45,12 +45,18 @@ function Registrationform(props) {
                   {option ? (
                     <>
                       <li className="current">
-                        <a onClick={() => setoption(true)} style={{cursor:"pointer"}}>
+                        <a
+                          onClick={() => setoption(true)}
+                          style={{ cursor: "pointer" }}
+                        >
                           <i className="fa fa-sign-in-alt"></i> Login
                         </a>
                       </li>
                       <li>
-                        <a onClick={() => setoption(false)} style={{cursor:"pointer"}}>
+                        <a
+                          onClick={() => setoption(false)}
+                          style={{ cursor: "pointer" }}
+                        >
                           <i className="fa fa-user-plus"></i> Register
                         </a>
                       </li>
@@ -58,12 +64,18 @@ function Registrationform(props) {
                   ) : (
                     <>
                       <li>
-                        <a onClick={() => setoption(true)} style={{cursor:"pointer"}}>
+                        <a
+                          onClick={() => setoption(true)}
+                          style={{ cursor: "pointer" }}
+                        >
                           <i className="fa fa-sign-in-alt"></i> Login
                         </a>
                       </li>
                       <li className="current">
-                        <a onClick={() => setoption(false)} style={{cursor:"pointer"}}>
+                        <a
+                          onClick={() => setoption(false)}
+                          style={{ cursor: "pointer" }}
+                        >
                           <i className="fa fa-user-plus"></i> Register
                         </a>
                       </li>
@@ -88,7 +100,6 @@ function Registrationform(props) {
                               name="email"
                               maxlength="10"
                               type="text"
-                              
                               value=""
                             />
                             <div className="pass-input-wrap fl-wrap">
@@ -102,15 +113,13 @@ function Registrationform(props) {
                                 name="password"
                                 type="password"
                                 autocomplete="off"
-                                
                                 value=""
                               />
                             </div>
 
                             <div className="clearfix"></div>
-                            <button type="submit" className="log_btn color-bg">
-                              {" "}
-                              LogIn{" "}
+                            <button className="log_btn color-bg">
+                              <a href="/tenantbuyerdashboard">LogIn</a>
                             </button>
                           </form>
                         </div>
@@ -132,24 +141,14 @@ function Registrationform(props) {
                                 <i className="fa fa-user"></i>
                               </span>
                             </label>
-                            <input
-                              name="name"
-                              type="text"
-                              
-                              value=""
-                            />
+                            <input name="name" type="text" value="" />
                             <label>
                               Email Address *{" "}
                               <span className="dec-icon">
                                 <i className="fa fa-envelope"></i>
                               </span>
                             </label>
-                            <input
-                              name="email"
-                              type="text"
-                              
-                              value=""
-                            />
+                            <input name="email" type="text" value="" />
                             <label>
                               Phone Number *{" "}
                               <span className="dec-icon">
@@ -160,7 +159,6 @@ function Registrationform(props) {
                               name="email"
                               maxlength="10"
                               type="text"
-                              
                               value=""
                             />
                             <div className="pass-input-wrap fl-wrap">
@@ -174,7 +172,6 @@ function Registrationform(props) {
                                 name="password"
                                 type="password"
                                 autocomplete="off"
-                                
                                 value=""
                               />
                             </div>

@@ -6,10 +6,14 @@ import Buyer from "./pages/buyer/Buyer";
 import Contacts from "./pages/contacts/Contacts";
 import Contactus from "./pages/contactus/Contactus";
 import Dashboard from "./pages/dashboard/Dashboard";
+import Editprofile from "./pages/dashboard/Editprofile";
+import Landlorddashboard from "./pages/dashboard/Landlorddashboard";
+import TenantBuyerDashboard from "./pages/dashboard/TenantBuyerDashboard";
 import Faq from "./pages/Faq/Faq";
 import Help from "./pages/help/Help";
 import Landlord from "./pages/landlord/Landlord";
 import Pricing from "./pages/pricing/Pricing";
+import Getcontactedbypropertyowner from "./pages/propertyowner/Getcontactedbypropertyowner";
 import Searchlisting from "./pages/searchlisting/Searchlisting";
 import Seller from "./pages/Seller/Seller";
 import Singlelisting from "./pages/singlelisting/Singlelisting";
@@ -35,6 +39,10 @@ function App() {
       <Route path="/searchlisting" element={<Searchlisting />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/singlelisting" element={<Singlelisting />} />
+<Route path="/getcontactedbypropertyowner" element={<Getcontactedbypropertyowner/>}/>
+       <Route path="/editprofile" element={<Editprofile/>} />
+       <Route path="/landlorddashboard" element={<Landlorddashboard/>} />
+       <Route path="/tenantbuyerdashboard" element={<TenantBuyerDashboard/>} />
     </Routes>
   );
 }

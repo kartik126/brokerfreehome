@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "../../othercomponents/Header";
 import Footer from "../../othercomponents/Footer";
-import { Link } from "react-router-dom";
-import Footer2 from "../../othercomponents/Footer2";
 function Aboutus() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -50,7 +48,7 @@ function Aboutus() {
           <div className="breadcrumbs fw-breadcrumbs sp-brd fl-wrap">
             <div className="container">
               <div className="breadcrumbs-list">
-                <a href="#">Home</a> <span>About</span>
+                <a href="/">Home</a> <span>About</span>
               </div>
               <div className="share-holder hid-share">
                 <a href="#" className="share-btn showshare sfcs">
@@ -339,7 +337,7 @@ function Aboutus() {
           </section>
           {/* section end*/}
           {/* footer */}
-          <Footer2 /> {/* footer end */}
+          <Footer /> {/* footer end */}
         </div>
         {/* wrapper end */}
         {/*register form */}

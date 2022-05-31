@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Footer2 from "../../othercomponents/Footer2";
+import Footer from "../../othercomponents/Footer";
 import Header from "../../othercomponents/Header";
 
 function Termscondition() {
@@ -50,7 +50,7 @@ function Termscondition() {
             <div className="breadcrumbs fw-breadcrumbs sp-brd fl-wrap">
               <div className="container">
                 <div className="breadcrumbs-list">
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                   <a href="#">Pages</a> <span>Pricing Plans</span>
                 </div>
                 <div className="share-holder hid-share">
@@ -257,7 +257,7 @@ function Termscondition() {
           {/* subscribe-wrap */}
           {/* subscribe-wrap end */}
           {/* footer */}
-          <Footer2 />
+          <Footer />
           {/* footer end */}
         </div>
         {/* wrapper end */}

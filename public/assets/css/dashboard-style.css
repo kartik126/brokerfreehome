@@ -318,25 +318,25 @@
 	position: absolute;
 	right: 20px;
 	top: 50%;
-	width: 46px;
-	height: 46px;
-	line-height: 46px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
 	color: #fff;
-	margin-top: -23px;
+	margin-top: -21px;
 	border-radius: 2px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.13);
+	box-shadow: 0 5px 5px rgb(0 0 0 / 13%);
 }
 
 .dashboard-stats h4 {
 	text-align: left;
 	display: block;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 500;
 	padding: 6px 0 0;
 }
 
 .dashboard-stats-count {
-	font-size: 24px;
+	font-size: 16px;
 	float: left;
 	font-weight: 500;
 }
@@ -1610,7 +1610,7 @@
 @media only screen and (max-width: 1500px) {
 	.dashboard-stats-container .col-md-3 {
 
-		width: 100%;
+		width: 25%;
 		margin: 0;
 
 	}

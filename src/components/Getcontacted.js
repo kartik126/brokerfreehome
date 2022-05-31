@@ -39,7 +39,7 @@ function Getcontacted() {
                 {/* listsearch-input-item */}
                 <div className="col-sm-2">
                   <div className="listsearch-input-item">
-                    <a href="#" className="btn color-bg fw-btn float-btn small-btn">Search</a>
+                    <a href="/getcontactedbypropertyowner" className="btn color-bg fw-btn float-btn small-btn">Search</a>
                   </div>
                 </div>
                 {/* listsearch-input-item */}
