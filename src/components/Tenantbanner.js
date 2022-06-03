@@ -1,9 +1,26 @@
 import React from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../othercomponents/Header";
-import img from "../assets/images/main_banner.png"
+import img from "../assets/images/main_banner.png";
 function Tenantbanner() {
+  const [buyActive, setbuyActive] = useState(true);
+  const [rentActive, setrentActive] = useState(true);
   const navigate = useNavigate();
+
+  const activeState=()=>{
+    setrentActive(false);
+    setbuyActive(false)
+  }
+  const deactiveState =()=>{
+    setbuyActive(false);
+    setrentActive(false);
+
+  } 
+  const modifyState=()=>{
+    setbuyActive(true);
+    setrentActive(true)
+  }
   return (
     <>
       <section className="hero-section gray-bg">
@@ -45,12 +62,37 @@ function Tenantbanner() {
         <div className="container">
           <div className="main-search-input-wrap shadow_msiw">
             <div className="row">
-              <div className="hero-notifer fl-wrap-new">
-                <a href="javascript:void(0)">Buy</a>
-              </div>
-              <div className="hero-notifer fl-wrap-new">
-                <a href="javascript:void(0)">Rent</a>
-              </div>
+              {buyActive ? (
+                <div
+                  className="hero-notifer fl-wrap-new"
+                  onClick={() =>  deactiveState()  }
+                >
+                  <a href="javascript:void(0)">Buy</a>
+                </div>
+              ) : (
+                <div className="hero-notifer fl-wrap-new">
+                  <a
+                    href="javascript:void(0)"
+                    style={{ background: "#ffff", color: "#000" }}
+                  >
+                    Buy
+                  </a>
+                </div>
+              )}
+              {rentActive ? (
+                <div className="hero-notifer fl-wrap-new" onClick={()=>activeState()}>
+                  <a
+                    href="javascript:void(0)"
+                    style={{ background: "#ffff", color: "#000" }}
+                  >
+                    Rent
+                  </a>
+                </div>
+              ) : (
+                <div className="hero-notifer fl-wrap-new" onClick={ ()=>modifyState()}>
+                  <a href="javascript:void(0)">Rent</a>
+                </div>
+              )}
             </div>
             <div className="main-search-input fl-wrap">
               <div className="main-search-input-item">

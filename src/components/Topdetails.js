@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/images/all/27.jpg"
+import img from "../assets/images/all/27.jpg";
 function Topdetails() {
   return (
     <>
@@ -8,7 +8,7 @@ function Topdetails() {
           {/*about-wrap */}
           <div className="about-wrap">
             <div className="row">
-              <div className="col-md-5 main_text_top">
+              <div className="col-md-6 main_text_top">
                 <div className="about-title ab-hero fl-wrap">
                   <h2>Savings All The Way</h2>
                   <h4>
@@ -16,45 +16,9 @@ function Topdetails() {
                     Broker Free Homes
                   </h4>
                 </div>
-                <div className="services-opions fl-wrap">
-                  <ul>
-                    <li>
-                      <i className="fal fa-handshake" />
-                      <h4>Broker Free Transactions </h4>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Et, incidunt!
-                      </p>
-                    </li>
-                    <li>
-                      <i className="fal fa-creative-commons-zero" />
-                      <h4>Zero Commission Deals </h4>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Et, incidunt!
-                      </p>
-                    </li>
-                    <li>
-                      <i className="fal fa-creative-commons-zero" />
-                      <h4>Zero Platform Charge</h4>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Et, incidunt!
-                      </p>
-                    </li>
-                    <li>
-                      <i className="fal fa-rabbit-fast" />
-                      <h4>Quick Mortgage Assist</h4>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Et, incidunt!
-                      </p>
-                    </li>
-                  </ul>
-                </div>
               </div>
               <div className="col-md-1" />
-              <div className="col-md-6">
+              <div className="col-md-6 seller-image">
                 <div className="about-img fl-wrap">
                   <img src={img} className="respimg" alt="" />
                   {/* <div className="about-img-hotifer color-bg">
@@ -67,9 +31,68 @@ function Topdetails() {
                 </div>
               </div>
             </div>
+
+            <div className="services-opions fl-wrap">
+              <div
+                className="container"
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "auto auto auto",
+                }}
+              >
+                <div className="seller-grid-block">
+                  <h4>Broker Free Transactions </h4>
+                  <h1></h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Et, incidunt!
+                  </p>
+                </div>
+                <div className="grid-block">
+                  <h4>Zero Commission Deals </h4>
+                  <h1></h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Et, incidunt!
+                  </p>
+                </div>
+                <div className="seller-grid-block">
+                  <h4>Zero Platform Charge</h4>
+                  <h1></h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Et, incidunt!
+                  </p>
+                </div>
+                <div className="seller-grid-block">
+                  <h4>Quick Mortgage Assist</h4>
+                  <h1></h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Et, incidunt!
+                  </p>
+                </div>
+                <div className="grid-block">
+                  <h4>Zero Platform Charge</h4>
+                  <h1></h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Et, incidunt!
+                  </p>
+                </div>
+                <div className="seller-grid-block">
+                  <h4>Zero Platform Charge</h4>
+                  <h1></h1>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Et, incidunt!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          {/* about-wrap end  */}
         </div>
+        {/* about-wrap end  */}
       </section>
     </>
   );
