@@ -30,53 +30,34 @@ function Helpdesk() {
             </div>
             <div className="row">
               <div className="col-md-3">
-                <div className="services-item fl-wrap">
-                  <i className="fa fa-search" />
+                <div className="services-item ">
+                  <h1 style={{color:"rgb(74, 210, 149)"}} className="fa fa-file" />
                   <h4>
-                    Search <span>01</span>
+                   Useful Forms 
                   </h4>
-                  <p>
-                    Search for a property of your choice from the hundreds of
-                    properties listed on the Broker Free Homes.
-                  </p>
+                
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="services-item fl-wrap">
-                  <i className="fa fa-address-book" />
+                <div className="services-item ">
+                  <h1 style={{color:"rgb(74, 210, 149)"}} className="fa fa-search" />
                   <h4>
-                    Contact Directly<span>02</span>
+                   Useful Links 
                   </h4>
-                  <p>
-                    Get in touch with the owner using any of the multiple
-                    options available…Email, Phone, Whatsapp, etc.
-                  </p>
+                
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="services-item fl-wrap">
-                  <i className="fa fa-home" />
+                <div className="services-item ">
+                  <h1 style={{color:"rgb(74, 210, 149)"}} className="fa fa-question" />
                   <h4>
-                    Home Viewing<span>03</span>
+                   FAQs
                   </h4>
-                  <p>
-                    Coordinate and schedule a property viewing using the
-                    convenient Meeting Planner tool.
-                  </p>
+                
                 </div>
               </div>
-              <div className="col-md-3">
-                <div className="services-item fl-wrap">
-                  <i className="fa fa-stamp" />
-                  <h4>
-                    Seal the Deal<span>04</span>
-                  </h4>
-                  <p>
-                    Loved the place? Close the deal DIY using our user-friendly
-                    step-by-step guides, checklists and templates.
-                  </p>
-                </div>
-              </div>
+            
+             
             </div>
           </div>
         </div>

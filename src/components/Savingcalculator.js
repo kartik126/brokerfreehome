@@ -2,7 +2,7 @@ import React from "react";
 import img from "../assets/images/all/27.jpg";
 function Savingcalculator() {
   return (
-    <section className="color-bg" style={{ padding: "30px" }}>
+    <section  style={{ padding: "30px" }}>
       <div className="container">
         <div className="main-facts fl-wrap">
           <div className="col-md-12">
@@ -10,17 +10,17 @@ function Savingcalculator() {
             <div className="listing-item-container one-column-grid-wrap  box-list_ic agency-list fl-wrap">
               <div className="about-title ab-hero fl-wrap">
                 <h2 style={{ color: "#0b2239" }}>Savings Calculator</h2>
-                <h4 style={{ color: "white" }}>
+                <h4 style={{color:"#7e7e7e",fontWeight:"500", fontSize:"16px"}}>
                   Find out how much you’ll save if you transact using Broker
                   Free Homes
                 </h4>
               </div>
               {/*  agecy card item */}
-              <div className="listing-item custom-form" style={{height:"227px"}}>
-                <div className="row">
-                  <div className="col-md-7">
-                    <div className="row" style={{ padding: "20px" }}>
-                      <div className="col-sm-4">
+              <div className="listing-item custom-form" >
+               
+                  <div className=" col-md-12 ">
+                   
+                      <div className="col-sm-3">
                         <label>You are? </label>
                         <select
                           data-placeholder="All Categories"
@@ -32,7 +32,7 @@ function Savingcalculator() {
                           <option>Tenant</option>
                         </select>
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-3">
                         <label>
                           Property Value/Rental Value (AED)
                           <span className="dec-icon">
@@ -44,7 +44,7 @@ function Savingcalculator() {
                           placeholder="Property Value / Rental Value"
                         />
                       </div>
-                      <div className="col-sm-4">
+                      <div className="col-sm-3">
                         <label>
                           Comission
                           <span className="dec-icon">
@@ -53,27 +53,26 @@ function Savingcalculator() {
                         </label>
                         <input type="text" placeholder={5} readOnly />
                       </div>
-                    </div>
-                    <div className="row" style={{ padding: "10px 20px" }}>
-                      <a
+                      <div className="col-sm-2 ">
+                      <button
                         href="#"
-                        className="btn float-btn-r color-bg small-btn"
-                        style={{ margin: 0 }}
+                        className="btn color-bg "
+                       
                       >
                         Compare
-                      </a>
-                    </div>
-                    <div>
-                      <h3 style={{ fontSize: "15px" }}>
-                        It displays ‘Hurray! You’ll save AED XXXX’
-                      </h3>
-                    </div>
+                      </button>
+                    
+                 
+                    
+                   
+                     
+              
                   </div>
-                  <div className="col-md-5">
+                  {/* <div className="col-md-5">
                     <div className="about-img fl-wrap">
                       <img src={img} className="respimg-new" alt="" />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/*  agecy card item end*/}

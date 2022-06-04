@@ -21,7 +21,7 @@ function Bfhworks() {
             </div>
           </div>
           <div className="pricing-switcher">
-            <div className="fieldset color-bg">
+            {/* <div className="fieldset color-bg">
               <input type="radio" name="duration-1" id="monthly-1" className="tariff-toggle" defaultChecked />
               <label htmlFor="monthly-1" className="button-bfh">Buyer</label>
               <input type="radio" name="duration-1" className="tariff-toggle" id="yearly-1" />
@@ -31,14 +31,14 @@ function Bfhworks() {
               <input type="radio" name="duration-1" className="tariff-toggle" id="yearly-3" />
               <label htmlFor="yearly-3" className="button-bfh">Landlord</label>
               <span className="switch-bfh" />
-            </div>
+            </div> */}
           </div>
           {/*  list-single-opt_header end */}
           {/*  list-single-header-item*/}
           <div className="list-single-header-item no-bg-list_sh fl-wrap">
-            <div className="col-md-6">
+            <div className="col-md-12">
               <div className="row">
-                <div className="col-md-6" style={{padding: '10px'}}>
+                <div className="col-md-3" style={{padding: '10px'}}>
                   <div className="services-item fl-wrap">
                     <i className="fa fa-search" />
                     <h4>Search <span>01</span></h4>
@@ -47,7 +47,7 @@ function Bfhworks() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6" style={{padding: '10px'}}>
+                <div className="col-md-3" style={{padding: '10px'}}>
                   <div className="services-item fl-wrap">
                     <i className="fa fa-address-book" />
                     <h4>Contact Directly<span>02</span></h4>
@@ -57,8 +57,12 @@ function Bfhworks() {
                   </div>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-md-6" style={{padding: '10px'}}>
+              
+          
+            </div>
+            <div className="col-md-12">
+            <div className="row " >
+                <div className="col-md-3" style={{padding: '10px'}}>
                   <div className="services-item fl-wrap">
                     <i className="fa fa-home" />
                     <h4>Home Viewing<span>03</span></h4>
@@ -66,7 +70,19 @@ function Bfhworks() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6" style={{padding: '10px'}}>
+                <div className="col-md-3" style={{padding: '10px'}}>
+                  <div className="services-item fl-wrap">
+                    <i className="fa fa-stamp" />
+                    <h4>Seal the Deal<span>04</span></h4>
+                    <p>Loved the place? Close the deal DIY using our user-friendly step-by-step guides, checklists
+                      and
+                      templates.
+                    </p>
+                  </div>
+                  
+                </div>
+                
+                <div className="col-md-3" style={{padding: '10px'}}>
                   <div className="services-item fl-wrap">
                     <i className="fa fa-stamp" />
                     <h4>Seal the Deal<span>04</span></h4>
@@ -77,7 +93,7 @@ function Bfhworks() {
                   </div>
                 </div>
               </div>
-            </div>
+              </div>
           </div>
         </div>
       </section>
