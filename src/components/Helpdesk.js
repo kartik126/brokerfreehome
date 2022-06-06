@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/images/bg/12.jpg"
+import img from "../assets/images/bg/12.jpg";
 function Helpdesk() {
   return (
     <>
@@ -12,8 +12,7 @@ function Helpdesk() {
         <div className="bg-wrap bg-parallax-wrap-gradien">
           <div
             className="bg par-elem"
-            style={{backgroundImage:`url(${img})`}} 
-            
+            style={{ backgroundImage: `url(${img})` }}
             data-scrollax="properties: { translateY: '30%' }"
           >
             <div className=" main_banner_parallax" />
@@ -29,35 +28,33 @@ function Helpdesk() {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <div className="services-item ">
-                  <h1 style={{color:"rgb(74, 210, 149)"}} className="fa fa-file" />
-                  <h4>
-                   Useful Forms 
-                  </h4>
-                
+                  <h1
+                    style={{ color: "rgb(74, 210, 149)" }}
+                    className="fa fa-file"
+                  />
+                  <h4>Useful Forms</h4>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <div className="services-item ">
-                  <h1 style={{color:"rgb(74, 210, 149)"}} className="fa fa-search" />
-                  <h4>
-                   Useful Links 
-                  </h4>
-                
+                  <h1
+                    style={{ color: "rgb(74, 210, 149)" }}
+                    className="fa fa-search"
+                  />
+                  <h4>Useful Links</h4>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-4">
                 <div className="services-item ">
-                  <h1 style={{color:"rgb(74, 210, 149)"}} className="fa fa-question" />
-                  <h4>
-                   FAQs
-                  </h4>
-                
+                  <h1
+                    style={{ color: "rgb(74, 210, 149)" }}
+                    className="fa fa-question"
+                  />
+                  <h4>FAQs</h4>
                 </div>
               </div>
-            
-             
             </div>
           </div>
         </div>
