@@ -9388,3 +9388,33 @@ section.single-par2 .scroll-down-wrap {
 	max-height: 100%;
 
 }
+.contact_owner{
+	background: #0B2239;
+	height: 300px;
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 0px;
+
+	
+}
+.contact-middle{
+	background-color: #fff;
+	height: 200px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	
+}
+.contact_btn{
+	width: 100px;
+	height: 100px;
+	border: 1.5px solid rgb(74, 210, 149);
+	border-radius: 19px;
+	background: #f2f2f2;
+	font-size: 15px;
+}

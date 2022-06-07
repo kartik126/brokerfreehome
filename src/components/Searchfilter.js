@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useState } from "react";
 function Searchfilter() {
+  const [filter, setfilter] = useState(false)
   return (
     <>
       <div className="col-md-4">
@@ -159,9 +160,15 @@ function Searchfilter() {
                 />
               </div>
             </div>
+
+            <div className="list-searh-input-wrap-title mt-30  fl-wrap">
+            <i className="far fa-sliders-h" onClick={()=>setfilter(!filter)}/>
+            <span>Advanced Filters</span>
+          </div>
             {/* listsearch-input-item end*/}
             {/* listsearch-input-item */}
-            <div className="listsearch-input-item">
+            {filter?(<>
+              <div className="listsearch-input-item">
               <div className="fl-wrap">
                 {/* <span className="pr_title">Area Sq/ft:</span><br /><br /> */}
                 <h4 style={{ marginBottom: "10px", textAlign: "start" }}>
@@ -349,7 +356,8 @@ function Searchfilter() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div></>):(<></>)}
+        
             {/* listsearch-input-item end*/}
             <div className="msotw_footer">
               <a href="#" className="btn small-btn float-btn color-bg">

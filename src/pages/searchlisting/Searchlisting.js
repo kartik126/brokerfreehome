@@ -204,9 +204,20 @@ function Searchlisting() {
                                 className="geodir-category-footer fl-wrap"
                                 style={{
                                   display: "flex",
-                                  justifyContent: "center",
+                                  justifyContent: "space-between",
                                 }}
                               >
+                            
+                                <a
+                                  href="agent-single.html"
+                                  className="gcf-company"
+                                >
+                                  <i
+                                    className="fal fa-phone-alt"
+                                    style={{ marginRight: "10px" }}
+                                  />
+                                  Schedule Viewing
+                                </a>
                                 <a
                                   href="agent-single.html"
                                   className="gcf-company"
@@ -316,9 +327,19 @@ function Searchlisting() {
                                 className="geodir-category-footer fl-wrap"
                                 style={{
                                   display: "flex",
-                                  justifyContent: "center",
+                                  justifyContent: "space-between",
                                 }}
                               >
+                                     <a
+                                  href="agent-single.html"
+                                  className="gcf-company"
+                                >
+                                  <i
+                                    className="fal fa-phone-alt"
+                                    style={{ marginRight: "10px" }}
+                                  />
+                                  Schedule Viewing
+                                </a>
                                 <a
                                   href="agent-single.html"
                                   className="gcf-company"
@@ -428,9 +449,19 @@ function Searchlisting() {
                                 className="geodir-category-footer fl-wrap"
                                 style={{
                                   display: "flex",
-                                  justifyContent: "center",
+                                  justifyContent: "space-between",
                                 }}
                               >
+                                     <a
+                                  href="agent-single.html"
+                                  className="gcf-company"
+                                >
+                                  <i
+                                    className="fal fa-phone-alt"
+                                    style={{ marginRight: "10px" }}
+                                  />
+                                  Schedule Viewing
+                                </a>
                                 <a
                                   href="agent-single.html"
                                   className="gcf-company"
@@ -540,9 +571,19 @@ function Searchlisting() {
                                 className="geodir-category-footer fl-wrap"
                                 style={{
                                   display: "flex",
-                                  justifyContent: "center",
+                                  justifyContent: "space-between",
                                 }}
                               >
+                                     <a
+                                  href="agent-single.html"
+                                  className="gcf-company"
+                                >
+                                  <i
+                                    className="fal fa-phone-alt"
+                                    style={{ marginRight: "10px" }}
+                                  />
+                                  Schedule Viewing
+                                </a>
                                 <a
                                   href="agent-single.html"
                                   className="gcf-company"
@@ -652,9 +693,19 @@ function Searchlisting() {
                                 className="geodir-category-footer fl-wrap"
                                 style={{
                                   display: "flex",
-                                  justifyContent: "center",
+                                  justifyContent: "space-between",
                                 }}
                               >
+                                     <a
+                                  href="agent-single.html"
+                                  className="gcf-company"
+                                >
+                                  <i
+                                    className="fal fa-phone-alt"
+                                    style={{ marginRight: "10px" }}
+                                  />
+                                  Schedule Viewing
+                                </a>
                                 <a
                                   href="agent-single.html"
                                   className="gcf-company"
@@ -764,9 +815,19 @@ function Searchlisting() {
                                 className="geodir-category-footer fl-wrap"
                                 style={{
                                   display: "flex",
-                                  justifyContent: "center",
+                                  justifyContent: "space-between",
                                 }}
                               >
+                                     <a
+                                  href="agent-single.html"
+                                  className="gcf-company"
+                                >
+                                  <i
+                                    className="fal fa-phone-alt"
+                                    style={{ marginRight: "10px" }}
+                                  />
+                                  Schedule Viewing
+                                </a>
                                 <a
                                   href="agent-single.html"
                                   className="gcf-company"
@@ -876,9 +937,19 @@ function Searchlisting() {
                                 className="geodir-category-footer fl-wrap"
                                 style={{
                                   display: "flex",
-                                  justifyContent: "center",
+                                  justifyContent: "space-between",
                                 }}
                               >
+                                     <a
+                                  href="agent-single.html"
+                                  className="gcf-company"
+                                >
+                                  <i
+                                    className="fal fa-phone-alt"
+                                    style={{ marginRight: "10px" }}
+                                  />
+                                  Schedule Viewing
+                                </a>
                                 <a
                                   href="agent-single.html"
                                   className="gcf-company"

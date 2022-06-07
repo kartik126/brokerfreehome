@@ -7,13 +7,15 @@ function Bfhworks() {
         className="hidden-section single-hero-section"
         data-scrollax-parent="true"
         id="sec1"
-        style={{padding:"50px"}}
+        style={{ padding: "50px" }}
       >
         <div className="bg-wrap bg-parallax-wrap-gradien">
-        <div className="bg par-elem" style={{backgroundImage:`url(${img})`}} 
-          
-          data-scrollax="properties: { translateY: '30%' }">‰
-            <div className=" main_banner_parallax"></div>
+          <div
+            className="bg par-elem"
+            style={{ backgroundImage: `url(${img})` }}
+            data-scrollax="properties: { translateY: '30%' }"
+          >
+            ‰<div className=" main_banner_parallax"></div>
           </div>
         </div>
         <div className="container">
@@ -71,7 +73,7 @@ function Bfhworks() {
           <div className="list-single-header-item no-bg-list_sh fl-wrap">
             <div className="col-md-6">
               <div className="row">
-                <div className="col-md-6" style={{padding:"10px"}}>
+                <div className="col-md-6" style={{ padding: "10px" }}>
                   <div className="services-item fl-wrap">
                     <i className="fal fa-search"></i>
                     <h4>
@@ -83,7 +85,7 @@ function Bfhworks() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6" style={{padding:"10px"}}>
+                <div className="col-md-6" style={{ padding: "10px" }}>
                   <div className="services-item fl-wrap">
                     <i className="fal fa-address-book"></i>
                     <h4>
@@ -97,7 +99,7 @@ function Bfhworks() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-md-6" style={{padding:"10px"}}>
+                <div className="col-md-6" style={{ padding: "10px" }}>
                   <div className="services-item fl-wrap">
                     <i className="fal fa-home"></i>
                     <h4>
@@ -109,7 +111,7 @@ function Bfhworks() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6" style={{padding:"10px"}}>
+                <div className="col-md-6" style={{ padding: "10px" }}>
                   <div className="services-item fl-wrap">
                     <i className="fal fa-stamp"></i>
                     <h4>
@@ -122,7 +124,7 @@ function Bfhworks() {
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6" style={{padding:"10px"}}>
+                <div className="col-md-6" style={{ padding: "10px" }}>
                   <div className="services-item fl-wrap">
                     <i className="fal fa-stamp"></i>
                     <h4>

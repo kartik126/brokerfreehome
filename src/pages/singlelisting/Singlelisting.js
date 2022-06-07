@@ -4,6 +4,7 @@ import img from "../../assets/images/all/3.jpg";
 import avatar from "../../assets/images/avatar/1.jpg";
 import Footer from "../../othercomponents/Footer";
 import BrowseProperty from "../../components/BrowseProperty";
+import Map from "./Map";
 function Singlelisting() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -178,7 +179,7 @@ function Singlelisting() {
                         {/* <div className="list-single-header-price" data-propertyprise="50500">
                         <strong>Price:</strong><span>$</span>50.500</div> */}
                         <div className="list-single-header-date">
-                          <span>Date:</span>20.05.2020
+                          <h1 style={{ fontSize: "18px" }}> AED 200,000</h1>
                         </div>
                         <div className="list-single-stats">
                           <ul className="no-list-style">
@@ -390,8 +391,7 @@ function Singlelisting() {
                                 <span>Rented:</span>
                               </li>
                               <li>
-                                <span>Mortgage Status:
-</span>
+                                <span>Mortgage Status:</span>
                               </li>
                             </ul>
                           </div>
@@ -399,7 +399,7 @@ function Singlelisting() {
                       </div>
                       {/* list-single-main-item end */}
                       {/*   list-single-main-item */}
-               
+
                       {/* list-single-main-item end */}
                       {/* list-single-main-item */}
                       <div className="list-single-main-item fl-wrap">
@@ -436,7 +436,7 @@ function Singlelisting() {
                               </li>
                               <li>
                                 <a href="#">
-                                <i className="fal fa-washer" /> Laundry Room
+                                  <i className="fal fa-washer" /> Laundry Room
                                 </a>
                               </li>
                               <li>
@@ -476,10 +476,23 @@ function Singlelisting() {
                       </div>
                       {/* list-single-main-item end */}
                       {/* list-single-main-item */}
+                      <div>
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.512379311034!2d78.14201641500884!3d30.3363849116772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390927f081a65de3%3A0x46a63023a7361ad6!2sMaldevta%20Road%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1654596268958!5m2!1sen!2sin"
+                          height="300"
+                          width="100%"
+                          style={{border:"0"}}
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                      </div>
+
                       {/* <div
                         className="list-single-main-item fw-lmi fl-wrap"
                         id="sec5"
                       >
+                      
                         <div className="map-container mapC_vis mapC_vis2">
                           <div
                             id="singleMap"
@@ -508,11 +521,13 @@ function Singlelisting() {
                 {/* sidebar */}
                 <div className="col-md-4 ">
                   {/*box-widget*/}
-                     <div className="col-md-4 side-info"> 
-                 
-                     <h1>Broker Free Homes Savings !</h1>
-                  <p>Here’s how much you’ll save on commission on buying this property through Broker Free Homes </p>
-                  <button>AED 4000</button>
+                  <div className="col-md-4 side-info">
+                    <h1>Broker Free Homes Savings !</h1>
+                    <p>
+                      Here’s how much you’ll save on commission on buying this
+                      property through Broker Free Homes{" "}
+                    </p>
+                    <button>AED 4000</button>
                   </div>
                   {/*box-widget end */}
                   {/*box-widget*/}
@@ -524,13 +539,40 @@ function Singlelisting() {
                       <div className="color-form reset-action">
                         <div className="color-form-title fl-wrap">
                           <h4>Calculate Your Mortgage</h4>
-                          <p>
+                          <div>
+                            <div className="hero-notifer fl-wrap-new">
+                              <a
+                                href="javascript:void(0)"
+                                style={{ background: "#ffff", color: "#000" }}
+                              >
+                                Emirati
+                              </a>
+                            </div>
+                            <div className="hero-notifer fl-wrap-new">
+                              <a
+                                href="javascript:void(0)"
+                                style={{ background: "#ffff", color: "#000" }}
+                              >
+                                Expat
+                              </a>
+                            </div>
+                          </div>
+
+                          {/* <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nunc posuere convallis purus non cursus.{" "}
-                          </p>
+                          </p> */}
                         </div>
                         <form method="post" name="mortgage-form">
                           <div className="fl-wrap">
+                            <label htmlFor="amt">Loan Amount </label>
+                            <input
+                              id="amt"
+                              name="amt"
+                              type="text"
+                              placeholder={0}
+                              defaultValue={0}
+                            />
                             <label htmlFor="amt">Loan Amount </label>
                             <input
                               id="amt"
@@ -599,9 +641,38 @@ function Singlelisting() {
                       </div>
                     </div>
                   </div>
+                  <div className="col-md-4 contact_owner">
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        /* justify-content: left; */
+                        /* width: 100%; */
+                        textAlign: "left",
+                        padding: "15px",
+                      }}
+                    >
+                      <h1 style={{ color: "#ffff", fontSize: "24px" }}>
+                        Liked this Property?
+                      </h1>
+                      <h1
+                        style={{
+                          color: "#ffff",
+                          fontSize: "27px",
+                          fontWeight: "600",
+                        }}
+                      >
+                        Contact Owner
+                      </h1>
+                    </div>
+                    <div className=" contact-middle">
+                      <button className="contact_btn">Message board</button>
+                      <button className="contact_btn">Schedule Viewing</button>
+                    </div>
+                  </div>
                   {/*box-widget end */}
                   {/*box-widget*/}
-                  <div className="box-widget fl-wrap">
+                  {/* <div className="box-widget fl-wrap">
                     <div className="box-widget-title fl-wrap">
                       Propertie Documents
                     </div>
@@ -627,10 +698,10 @@ function Singlelisting() {
                         </a>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/*box-widget end */}
                   {/*box-widget*/}
-                  <div className="box-widget fl-wrap">
+                  {/* <div className="box-widget fl-wrap">
                     <div
                       className="box-widget-fixed-init fl-wrap"
                       id="sec-contact"
@@ -701,13 +772,13 @@ function Singlelisting() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   {/*box-widget end */}
                 </div>
                 {/*  sidebar end*/}
               </div>
               <div className="fl-wrap limit-box" />
-              <BrowseProperty/>
+              <BrowseProperty />
             </div>
           </div>
         </div>
